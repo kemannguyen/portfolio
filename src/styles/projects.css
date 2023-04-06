@@ -1,0 +1,49 @@
+.image-slider {
+  display: flex;
+  justify-content: space-around;
+}
+
+.image-view {
+  max-width: 60vw;
+  max-height: 25vw;
+  min-width: 60vw;
+  min-height: 25vw;
+}
+
+.image-button-r {
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-left: -45vw;
+  max-height: 50px;
+  min-height: 50px;
+  max-width: 50px;
+  min-width: 50px;
+  border-radius: 50% !important;
+}
+.image-button-l {
+  margin-right: -45vw;
+  z-index: 20;
+  margin-top: auto;
+  margin-bottom: auto;
+  max-height: 50px;
+  min-height: 50px;
+  max-width: 50px;
+  min-width: 50px;
+  border-radius: 50% !important;
+}
+.project-title {
+  margin-top: 10px;
+  margin-bottom: 15px;
+  font-size: x-large;
+  font-weight: bold;
+  margin-left: 17vw;
+  color: rgb(255, 255, 255);
+}
+.project-desc {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-size: small;
+  word-wrap: break-word;
+  max-width: 55vw;
+  color: rgb(133, 139, 143);
+}

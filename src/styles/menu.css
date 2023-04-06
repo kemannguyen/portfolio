@@ -1,0 +1,23 @@
+.sidebar {
+  margin-top: 100px;
+  height: 60px;
+}
+.menu-options {
+  padding-top: 20px;
+  max-height: 190px;
+  margin-top: -80px;
+  margin-left: 5px;
+  background-color: rgb(9, 2, 43);
+}
+.menu-option {
+  position: relative;
+  font-size: small;
+  margin-top: 10px;
+  margin-left: 60px;
+  align-self: flex-start;
+  padding-bottom: 10px;
+  color: white;
+}
+.menu-option :hover {
+  color: #eeeeee;
+}

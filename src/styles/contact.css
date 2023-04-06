@@ -1,0 +1,18 @@
+.contact-body {
+  background-color: rgb(22, 22, 22);
+}
+.contact-btn {
+  transform: scale(0.7);
+  max-height: 45px;
+  min-height: 45px;
+  max-width: 45px;
+  min-width: 45px;
+  border-radius: 50% !important;
+}
+.contact-btn-fill {
+  max-height: 40px;
+  min-height: 40px;
+  max-width: 25px;
+  min-width: 25px;
+  border-radius: 50% !important;
+}
