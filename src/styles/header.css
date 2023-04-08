@@ -19,10 +19,10 @@
 
 .button-hover {
   position: fixed !important;
-  max-width: 5vw;
-  max-height: 5vw;
-  margin-top: 15px;
-  margin-left: 15px;
+  max-width: 4vw;
+  max-height: 4vw;
+  margin-top: 10px;
+  margin-left: 10px;
   cursor: pointer;
   z-index: 50;
   transition: 200ms;
@@ -32,10 +32,10 @@
   position: fixed !important;
   cursor: pointer !important;
   z-index: 50;
-  max-width: 4vw;
-  max-height: 4vw;
-  margin-top: 20px;
-  margin-left: 20px;
+  max-width: 3vw;
+  max-height: 3vw;
+  margin-top: 15px;
+  margin-left: 15px;
   transition: 200ms;
   top: 0;
 }
