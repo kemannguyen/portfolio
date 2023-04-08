@@ -19,7 +19,7 @@ const Menu = () => {
     section.scrollIntoView({ behavior: "smooth", block: "start" });
   };
   return (
-    <div className="bg-gray-100">
+    <div>
       <div className="sidebar relative flex flex-col rounded-[10px] ml-5 min-w-[150px] max-w-[150px] bg-clip-border shadow-3xl shadow-shadow-500 flex flex-col w-full !p-6 3xl:p-![18px] "></div>
       <div className="menu-options h-full w-full mt-10 flex flex-col">
         <button className="menu-option" onClick={scrollToAboutMe}>

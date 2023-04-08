@@ -28,6 +28,10 @@ const Sidetracker = () => {
       setProj(true);
     }
   }, [scrollValue]);
+
+  //use when finding compoment scroll values
+  //console.log(scrollValue);
+
   //needs to have margin top and marginBot - at balance 100 between them
   //ex mt 200, mb-300
   return (

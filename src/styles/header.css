@@ -21,6 +21,8 @@
   position: fixed !important;
   max-width: 4vw;
   max-height: 4vw;
+  min-width: 30px;
+  min-height: 30px;
   margin-top: 10px;
   margin-left: 10px;
   cursor: pointer;
@@ -34,6 +36,8 @@
   z-index: 50;
   max-width: 3vw;
   max-height: 3vw;
+  min-width: 30px;
+  min-height: 30px;
   margin-top: 15px;
   margin-left: 15px;
   transition: 200ms;
@@ -59,7 +63,7 @@
   display: flex;
   justify-content: center;
   position: fixed;
-  top: -100px !important;
+  top: -95px !important;
   transition: 350ms;
 }
 .page-line {
