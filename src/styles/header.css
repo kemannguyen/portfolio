@@ -3,7 +3,7 @@
   cursor: default;
   position: fixed;
   white-space: nowrap;
-  font-size: 5vw !important;
+  font-size: 4vw !important;
 }
 
 .header {
@@ -14,7 +14,7 @@
   position: fixed !important;
   top: 0;
   max-height: 9vw !important;
-  min-height: 7vw;
+  min-height: 50px;
 }
 
 .button-hover {
