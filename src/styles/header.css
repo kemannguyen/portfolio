@@ -3,6 +3,7 @@
   cursor: default;
   position: fixed;
   white-space: nowrap;
+  font-size: 4vw !important;
 }
 
 .header {
@@ -12,19 +13,13 @@
   justify-content: center;
   position: fixed !important;
   top: 0;
+  max-height: 8vw;
 }
 
-.logo-img {
-  width: 50px;
-  height: 50px;
-  margin-left: 20px;
-  position: fixed;
-  top: 0;
-}
 .button-hover {
   position: fixed !important;
-  max-width: 50px;
-  max-height: 50px;
+  max-width: 4vw;
+  max-height: 4vw;
   margin-top: 15px;
   margin-left: 15px;
   cursor: pointer;
@@ -36,10 +31,10 @@
   position: fixed !important;
   cursor: pointer !important;
   z-index: 50;
-  max-width: 30px;
-  max-height: 30px;
-  margin-top: 25px;
-  margin-left: 25px;
+  max-width: 2vw;
+  max-height: 2vw;
+  margin-top: 20px;
+  margin-left: 20px;
   transition: 200ms;
   top: 0;
 }
@@ -47,7 +42,7 @@
 .menu-box {
   z-index: 40 !important;
   margin-left: -80px;
-  margin-top: -200px;
+  margin-top: -100vw;
   width: 250px;
   display: flex;
   justify-content: center;
@@ -58,19 +53,20 @@
 .menu-box-active {
   z-index: 40 !important;
   margin-left: -80px;
-  margin-top: -10px;
+  margin-top: 7vw;
   width: 250px;
   display: flex;
   justify-content: center;
   position: fixed;
-  top: 0 !important;
+  top: -100px !important;
   transition: 350ms;
 }
 .page-line {
   font-size: xx-large;
   z-index: 0;
-  margin-left: 70px;
+  margin-left: 48px;
   top: 100px;
   color: white;
   position: fixed;
+  background-color: rgb(9, 2, 43);
 }

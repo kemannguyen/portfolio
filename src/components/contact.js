@@ -16,17 +16,17 @@ const Contact = () => {
       <div
         style={{ display: "flex", justifyContent: "space-evenly", padding: 10 }}
       >
-        <div className="body-text" style={{ margin: 10 }}>
+        <div className="contact-info" style={{ margin: 10 }}>
           <b>Phone: </b>
           <br></br>
           +46 70 068 42 39
         </div>
-        <div className="body-text" style={{ margin: 10 }}>
+        <div className="contact-info" style={{ margin: 10 }}>
           <b>Email: </b>
           <br></br>
           keman.nguyen@outlook.com
         </div>
-        <div className="body-text" style={{ margin: 10 }}>
+        <div className="contact-info" style={{ margin: 10 }}>
           <b>Address: </b>
           <br></br>
           Sofielundsvägen 3, Malmö

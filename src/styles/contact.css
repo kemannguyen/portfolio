@@ -16,3 +16,11 @@
   min-width: 25px;
   border-radius: 50% !important;
 }
+.contact-info {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-size: small;
+  word-wrap: break-word;
+  max-width: 55vw;
+  color: rgb(133, 139, 143);
+}

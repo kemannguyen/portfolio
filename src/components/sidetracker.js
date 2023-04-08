@@ -34,10 +34,7 @@ const Sidetracker = () => {
     <>
       <div className={atAboutMe ? "stick" : "nonstick"}>
         {" "}
-        <button
-          className="logo relative inline-flex items-center justify-center p-0.5 mb-2 mr-2 overflow-hidden text-sm font-medium text-gray-900 rounded-lg group bg-gradient-to-br from-white to-white"
-          style={{ marginLeft: 21 }}
-        >
+        <button className="logo relative inline-flex items-center justify-center p-0.5 mb-2 mr-2 overflow-hidden text-sm font-medium text-gray-900 rounded-lg group bg-gradient-to-br from-white to-white">
           <div className="contact-btn-fill  relative px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 rounded-md">
             {" "}
             <svg
@@ -66,10 +63,7 @@ const Sidetracker = () => {
         className={atEducation ? "stick" : "nonstick"}
         style={{ marginTop: 290, marginBottom: -390 }}
       >
-        <button
-          className="logo relative inline-flex items-center justify-center p-0.5 mb-2 mr-2 overflow-hidden text-sm font-medium text-gray-900 rounded-lg group bg-gradient-to-br from-white to-white"
-          style={{ marginLeft: 21 }}
-        >
+        <button className="logo relative inline-flex items-center justify-center p-0.5 mb-2 mr-2 overflow-hidden text-sm font-medium text-gray-900 rounded-lg group bg-gradient-to-br from-white to-white">
           <div className="contact-btn-fill relative px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 rounded-md">
             {" "}
             <svg
@@ -99,10 +93,7 @@ const Sidetracker = () => {
         className={atProject ? "stick" : "nonstick"}
         style={{ marginTop: 460, marginBottom: -560 }}
       >
-        <button
-          className="logo relative inline-flex items-center justify-center p-0.5 mb-2 mr-2 overflow-hidden text-sm font-medium text-gray-900 rounded-lg group bg-gradient-to-br from-white to-white"
-          style={{ marginLeft: 21 }}
-        >
+        <button className="logo relative inline-flex items-center justify-center p-0.5 mb-2 mr-2 overflow-hidden text-sm font-medium text-gray-900 rounded-lg group bg-gradient-to-br from-white to-white">
           <div className="contact-btn-fill relative px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 rounded-md">
             {" "}
             <svg

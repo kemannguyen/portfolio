@@ -42,8 +42,6 @@ const Header = () => {
         <div style={{ marginBottom: -17 }}>|</div>
         <div style={{ marginBottom: -17 }}>|</div>
         <div style={{ marginBottom: -17 }}>|</div>
-        <div style={{ marginBottom: -17 }}>|</div>
-        <div style={{ marginBottom: -17 }}>|</div>
       </div>
     </div>
   );
