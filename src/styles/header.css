@@ -13,7 +13,8 @@
   justify-content: center;
   position: fixed !important;
   top: 0;
-  max-height: 8vw;
+  max-height: 9vw !important;
+  min-height: 8vw;
 }
 
 .button-hover {
