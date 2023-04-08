@@ -27,21 +27,21 @@ const Header = () => {
         <Menu />
       </div>
       <div className="page-line">
-        <div style={{ marginBottom: -17 }}>|</div>
-        <div style={{ marginBottom: -17 }}>|</div>
-        <div style={{ marginBottom: -17 }}>|</div>
-        <div style={{ marginBottom: -17 }}>|</div>
-        <div style={{ marginBottom: -17 }}>|</div>
-        <div style={{ marginBottom: -17 }}>|</div>
-        <div style={{ marginBottom: -17 }}>|</div>
-        <div style={{ marginBottom: -17 }}>|</div>
-        <div style={{ marginBottom: -17 }}>|</div>
-        <div style={{ marginBottom: -17 }}>|</div>
-        <div style={{ marginBottom: -17 }}>|</div>
-        <div style={{ marginBottom: -17 }}>|</div>
-        <div style={{ marginBottom: -17 }}>|</div>
-        <div style={{ marginBottom: -17 }}>|</div>
-        <div style={{ marginBottom: -17 }}>|</div>
+        <div style={{ marginBottom: -18 }}>|</div>
+        <div style={{ marginBottom: -18 }}>|</div>
+        <div style={{ marginBottom: -18 }}>|</div>
+        <div style={{ marginBottom: -18 }}>|</div>
+        <div style={{ marginBottom: -18 }}>|</div>
+        <div style={{ marginBottom: -18 }}>|</div>
+        <div style={{ marginBottom: -18 }}>|</div>
+        <div style={{ marginBottom: -18 }}>|</div>
+        <div style={{ marginBottom: -18 }}>|</div>
+        <div style={{ marginBottom: -18 }}>|</div>
+        <div style={{ marginBottom: -18 }}>|</div>
+        <div style={{ marginBottom: -18 }}>|</div>
+        <div style={{ marginBottom: -18 }}>|</div>
+        <div style={{ marginBottom: -18 }}>|</div>
+        <div style={{ marginBottom: -18 }}>|</div>
       </div>
     </div>
   );
