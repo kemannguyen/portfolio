@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import "../styles/sidetracker.css";
 
-const Sidetracker = () => {
+const Sidetracker = ({ projPos, eduPos, test }) => {
   const [scrollValue, setScrollValue] = useState(0);
   const [atAboutMe, setAbo] = useState(true);
   const [atEducation, setEdu] = useState(false);
@@ -16,24 +16,29 @@ const Sidetracker = () => {
     return () => window.removeEventListener("scroll", onScroll);
   }, [scrollValue]);
   useEffect(() => {
-    if (scrollValue < 219) {
+    if (scrollValue < eduPos - 160) {
       setAbo(true);
       setEdu(false);
-    } else if (scrollValue > 219 && scrollValue < 403) {
+      setProj(false);
+    } else if (scrollValue > eduPos - 160 && scrollValue < projPos) {
       setAbo(false);
       setEdu(true);
       setProj(false);
-    } else if (scrollValue > 403) {
+    } else if (scrollValue > projPos) {
       setEdu(false);
       setProj(true);
     }
   }, [scrollValue]);
 
   //use when finding compoment scroll values
+
   //console.log(scrollValue);
 
+  //671 .> 740, -840 (69)
+  //854 -> 910, -1010   (56)
   //needs to have margin top and marginBot - at balance 100 between them
   //ex mt 200, mb-300
+
   return (
     <>
       <div className={atAboutMe ? "stick" : "nonstick"}>
@@ -65,7 +70,9 @@ const Sidetracker = () => {
       </div>
       <div
         className={atEducation ? "stick" : "nonstick"}
-        style={{ marginTop: 290, marginBottom: -390 }}
+        style={{
+          marginTop: eduPos - 70,
+        }}
       >
         <button className="logo relative inline-flex items-center justify-center p-0.5 mb-2 mr-2 overflow-hidden text-sm font-medium text-gray-900 rounded-lg group bg-gradient-to-br from-white to-white">
           <div className="contact-btn-fill relative px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 rounded-md">
@@ -92,10 +99,11 @@ const Sidetracker = () => {
           </div>
         </button>
       </div>
-
       <div
-        className={atProject ? "stick" : "nonstick"}
-        style={{ marginTop: 460, marginBottom: -560 }}
+        className={atEducation ? "stick" : "nonstick"}
+        style={{
+          marginTop: projPos - 70,
+        }}
       >
         <button className="logo relative inline-flex items-center justify-center p-0.5 mb-2 mr-2 overflow-hidden text-sm font-medium text-gray-900 rounded-lg group bg-gradient-to-br from-white to-white">
           <div className="contact-btn-fill relative px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 rounded-md">
@@ -123,3 +131,10 @@ const Sidetracker = () => {
 };
 
 export default Sidetracker;
+
+// <div
+//   className={atProject ? "stick" : "nonstick"}
+//   style={{ marginTop: projPos - 70 }}
+// >
+
+// </div>;

@@ -1,0 +1,56 @@
+.aboutme-info {
+  display: flex !important;
+  flex-direction: column !important;
+  width: 50vw !important;
+}
+.aboutme-subhead {
+  font-size: 20px;
+}
+.competence-subhead {
+  color: rgb(133, 139, 143);
+  font-size: 20px;
+  text-decoration: underline;
+}
+.aboutme-img-comp {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-right: 40px;
+}
+.aboutme-competence {
+  display: flex !important;
+  flex-direction: column !important;
+  padding-left: 50px;
+}
+.aboutme-img {
+  margin-top: 50px;
+  margin-left: -20px;
+  width: 10vw;
+  height: 15vw;
+}
+@media (max-width: 1070px) {
+  .aboutme-info {
+    display: flex !important;
+    flex-direction: column !important;
+    width: 70vw !important;
+  }
+  .aboutme-competence {
+    display: flex !important;
+    flex-direction: column !important;
+    max-width: 40vw;
+    min-width: 40vw !important;
+    padding-right: 60px;
+    padding-left: 0px;
+    padding-top: 40px;
+  }
+  .aboutme-img {
+    display: flex;
+    width: 25vw;
+    height: 35vw;
+  }
+  .aboutme-img-comp {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}

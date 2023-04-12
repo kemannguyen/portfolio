@@ -5,6 +5,7 @@ import Menu from "./menu";
 
 const Header = () => {
   const [menu, setMenu] = useState(false);
+
   const openMenu = () => setMenu(!menu);
 
   return (
@@ -26,23 +27,7 @@ const Header = () => {
       <div className={menu ? "menu-box-active" : "menu-box"}>
         <Menu />
       </div>
-      <div className="page-line">
-        <div style={{ marginBottom: -18 }}>|</div>
-        <div style={{ marginBottom: -18 }}>|</div>
-        <div style={{ marginBottom: -18 }}>|</div>
-        <div style={{ marginBottom: -18 }}>|</div>
-        <div style={{ marginBottom: -18 }}>|</div>
-        <div style={{ marginBottom: -18 }}>|</div>
-        <div style={{ marginBottom: -18 }}>|</div>
-        <div style={{ marginBottom: -18 }}>|</div>
-        <div style={{ marginBottom: -18 }}>|</div>
-        <div style={{ marginBottom: -18 }}>|</div>
-        <div style={{ marginBottom: -18 }}>|</div>
-        <div style={{ marginBottom: -18 }}>|</div>
-        <div style={{ marginBottom: -18 }}>|</div>
-        <div style={{ marginBottom: -18 }}>|</div>
-        <div style={{ marginBottom: -18 }}>|</div>
-      </div>
+      <div className="page-line" style={{ marginLeft: 52 }}></div>
     </div>
   );
 };

@@ -1,18 +1,16 @@
 .stick {
-  z-index: 2 !important;
+  z-index: 1 !important;
   position: -webkit-sticky;
-  position: sticky;
-  top: 80px;
-  margin-bottom: -230px;
+  position: fixed;
+  top: 0px;
+  margin-bottom: -200px;
   padding: 30px;
-  margin-top: 130px;
+  margin-top: 90px !important;
 }
 .nonstick {
   z-index: 2 !important;
-  position: relative;
-  margin-bottom: -200px;
+  position: absolute;
   padding: 30px;
-  margin-top: 100px;
 }
 .logo {
   transform: scale(0.7);

@@ -13,9 +13,9 @@ export const ProjectData = [
     githublink: "",
   },
   {
-    name: "3",
+    name: "Humans vs Zombies",
     img: "https://i.imgur.com/bb8UqRc.png",
     description: "Test 3",
-    githublink: "",
+    githublink: "https://github.com/Nirase/HvZCaseFrontend",
   },
 ];

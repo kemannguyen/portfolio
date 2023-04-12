@@ -16,7 +16,9 @@ body {
   justify-content: center;
   color: rgb(255, 255, 255);
 }
-
+.header-color {
+  background-color: rgb(9, 2, 43);
+}
 .section {
   padding: 30px;
   background-color: rgb(22, 22, 22);
@@ -28,9 +30,28 @@ body {
 }
 .body-text {
   color: rgb(133, 139, 143);
+  word-wrap: break-word;
 }
-
+.body-container {
+  display: flex;
+  margin-left: 17vw;
+  margin-right: 50vw;
+  width: 80vw;
+}
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+@media (max-width: 1070px) {
+  .body-container {
+    display: flex;
+    flex-direction: column;
+    margin-left: 17vw;
+    margin-right: 50vw;
+    width: 80vw;
+  }
+  .body-text {
+    color: rgb(133, 139, 143);
+    word-wrap: normal !important;
+  }
 }

@@ -13,9 +13,7 @@ const Contact = () => {
         Contact
       </div>
       <div className="subhead-text">Keman Nguyen</div>
-      <div
-        style={{ display: "flex", justifyContent: "space-evenly", padding: 10 }}
-      >
+      <div className="contact-container">
         <div className="contact-info" style={{ margin: 10 }}>
           <b>Phone: </b>
           <br></br>

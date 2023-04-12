@@ -3,7 +3,7 @@
   cursor: default;
   position: fixed;
   white-space: nowrap;
-  font-size: 4vw !important;
+  font-size: 40px !important;
 }
 
 .header {
@@ -13,16 +13,16 @@
   justify-content: center;
   position: fixed !important;
   top: 0;
-  max-height: 9vw !important;
-  min-height: 50px;
+  max-height: 80px !important;
+  min-height: 80px;
 }
 
 .button-hover {
   position: fixed !important;
-  max-width: 4vw;
-  max-height: 4vw;
-  min-width: 30px;
-  min-height: 30px;
+  max-width: 50px;
+  max-height: 50px;
+  min-width: 50px;
+  min-height: 50px;
   margin-top: 10px;
   margin-left: 10px;
   cursor: pointer;
@@ -34,10 +34,10 @@
   position: fixed !important;
   cursor: pointer !important;
   z-index: 50;
-  max-width: 3vw;
-  max-height: 3vw;
-  min-width: 30px;
-  min-height: 30px;
+  max-width: 40px;
+  max-height: 40px;
+  min-width: 40px;
+  min-height: 40px;
   margin-top: 15px;
   margin-left: 15px;
   transition: 200ms;
@@ -47,7 +47,7 @@
 .menu-box {
   z-index: 40 !important;
   margin-left: -80px;
-  margin-top: -100vw;
+  margin-top: -300px;
   width: 250px;
   display: flex;
   justify-content: center;
@@ -58,7 +58,7 @@
 .menu-box-active {
   z-index: 40 !important;
   margin-left: -80px;
-  margin-top: 7vw;
+  margin-top: 50px;
   width: 250px;
   display: flex;
   justify-content: center;
@@ -73,4 +73,73 @@
   top: 100px;
   color: white;
   position: fixed;
+  height: 85vh;
+  border-left: 1px solid #ffffff;
+}
+@media (max-width: 700px) {
+  .page-line {
+    font-size: xx-large;
+    z-index: 0;
+    margin-left: 48px;
+    top: 100px;
+    color: white;
+    position: fixed;
+    height: 90vh;
+    border-left: 1px solid #ffffff;
+  }
+}
+@media (max-width: 410px) {
+  .custom-text {
+    color: rgb(255, 255, 255);
+    cursor: default;
+    white-space: nowrap;
+    font-size: 9vw !important;
+  }
+  .header {
+    background-color: rgb(9, 2, 43);
+    z-index: 45 !important;
+    display: flex;
+    justify-content: center;
+    position: fixed !important;
+    top: 0;
+    max-height: 18vw !important;
+    min-height: 18vw;
+  }
+  .button-hover {
+    position: fixed !important;
+    max-width: 10vw;
+    max-height: 10vw;
+    min-width: 10vw;
+    min-height: 10vw;
+    margin-top: 10px;
+    margin-left: 10px;
+    cursor: pointer;
+    z-index: 50;
+    transition: 200ms;
+    top: 0;
+  }
+  .button-hover2 {
+    position: fixed !important;
+    cursor: pointer !important;
+    z-index: 50;
+    max-width: 8vw;
+    max-height: 8vw;
+    min-width: 8vw;
+    min-height: 8vw;
+    margin-top: 15px;
+    margin-left: 15px;
+    transition: 200ms;
+    top: 0;
+  }
+  .menu-box-active {
+    z-index: 40 !important;
+    margin-left: -80px;
+    margin-top: 10vw;
+    width: 250px;
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    top: -95px !important;
+    transition: 350ms;
+  }
 }
