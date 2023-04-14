@@ -32,7 +32,7 @@ const Eductation = ({ setEduPosPC }) => {
   return (
     <div id="education" className="section">
       <div className="title" ref={boxRef} onResize={UpdateY(y)}>
-        Eductation
+        Eductation: {y}
       </div>
     </div>
   );

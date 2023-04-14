@@ -31,6 +31,22 @@ const Sidetracker = ({ projPos, eduPos }) => {
     }
   }, [scrollValue]);
 
+  const updateIcons = () => {
+    if (scrollValue < eduPos - 120) {
+      setAbo(true);
+      setEdu(false);
+      setProj(false);
+    } else if (scrollValue > eduPos - 120 && scrollValue < projPos - 120) {
+      setAbo(false);
+      setEdu(true);
+      setProj(false);
+    } else if (scrollValue > projPos - 120) {
+      setAbo(false);
+      setEdu(false);
+      setProj(false);
+    }
+  };
+
   //use when finding compoment scroll values
 
   //console.log(scrollValue);
@@ -41,7 +57,7 @@ const Sidetracker = ({ projPos, eduPos }) => {
   //ex mt 200, mb-300
 
   return (
-    <>
+    <div onResize={updateIcons}>
       <div className={atAboutMe ? "stick" : "nonstick"}>
         {" "}
         <button className="logo relative inline-flex items-center justify-center p-0.5 mb-2 mr-2 overflow-hidden text-sm font-medium text-gray-900 rounded-lg group bg-gradient-to-br from-white to-white">
@@ -127,7 +143,7 @@ const Sidetracker = ({ projPos, eduPos }) => {
           </div>
         </button>
       </div>
-    </>
+    </div>
   );
 };
 

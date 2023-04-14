@@ -6,20 +6,24 @@ const Projects = ({ setProjPosPC }) => {
   const [index, setIndex] = useState(0);
 
   // THis ref will be connected to the orange box
-  const boxRef = useRef();
+  const boxRef2 = useRef();
 
   // Y
   const [y, setY] = useState();
 
   // This function calculate X and Y
   const getPosition = () => {
-    const y = boxRef.current.offsetTop;
+    const y = boxRef2.current.offsetTop;
     setY(y);
   };
 
   // Get the position of the red box in the beginning
   useEffect(() => {
     getPosition();
+  }, []);
+
+  useEffect(() => {
+    window.addEventListener("resize", getPosition);
   }, []);
 
   function UpdateY(y) {
@@ -52,8 +56,8 @@ const Projects = ({ setProjPosPC }) => {
 
   return (
     <div id="projects" className="section">
-      <div className="title" ref={boxRef} onChange={UpdateY(y)}>
-        Projects
+      <div className="title" ref={boxRef2} onResize={UpdateY(y)}>
+        Projects: {y}
       </div>
       <span
         style={{
