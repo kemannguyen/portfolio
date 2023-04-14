@@ -52,9 +52,8 @@ const Projects = ({ setProjPosPC }) => {
 
   return (
     <div id="projects" className="section">
-      <div className="title">Projects</div>
-      <div style={{ color: "white" }} ref={boxRef} onChange={UpdateY(y)}>
-        y: {y}
+      <div className="title" ref={boxRef} onChange={UpdateY(y)}>
+        Projects
       </div>
       <span
         style={{

@@ -31,9 +31,8 @@ const Eductation = ({ setEduPosPC }) => {
   }, []);
   return (
     <div id="education" className="section">
-      <div className="title">Eductation</div>
-      <div style={{ color: "white" }} ref={boxRef} onResize={UpdateY(y)}>
-        y: {y}
+      <div className="title" ref={boxRef} onResize={UpdateY(y)}>
+        Eductation
       </div>
     </div>
   );

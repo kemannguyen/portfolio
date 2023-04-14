@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import "../styles/sidetracker.css";
 
-const Sidetracker = ({ projPos, eduPos, test }) => {
+const Sidetracker = ({ projPos, eduPos }) => {
   const [scrollValue, setScrollValue] = useState(0);
   const [atAboutMe, setAbo] = useState(true);
   const [atEducation, setEdu] = useState(false);
@@ -16,15 +16,16 @@ const Sidetracker = ({ projPos, eduPos, test }) => {
     return () => window.removeEventListener("scroll", onScroll);
   }, [scrollValue]);
   useEffect(() => {
-    if (scrollValue < eduPos - 160) {
+    if (scrollValue < eduPos - 120) {
       setAbo(true);
       setEdu(false);
       setProj(false);
-    } else if (scrollValue > eduPos - 160 && scrollValue < projPos) {
+    } else if (scrollValue > eduPos - 120 && scrollValue < projPos - 120) {
       setAbo(false);
       setEdu(true);
       setProj(false);
-    } else if (scrollValue > projPos) {
+    } else if (scrollValue > projPos - 120) {
+      setAbo(false);
       setEdu(false);
       setProj(true);
     }
@@ -71,7 +72,7 @@ const Sidetracker = ({ projPos, eduPos, test }) => {
       <div
         className={atEducation ? "stick" : "nonstick"}
         style={{
-          marginTop: eduPos - 70,
+          marginTop: eduPos - 29,
         }}
       >
         <button className="logo relative inline-flex items-center justify-center p-0.5 mb-2 mr-2 overflow-hidden text-sm font-medium text-gray-900 rounded-lg group bg-gradient-to-br from-white to-white">
@@ -100,9 +101,9 @@ const Sidetracker = ({ projPos, eduPos, test }) => {
         </button>
       </div>
       <div
-        className={atEducation ? "stick" : "nonstick"}
+        className={atProject ? "stick" : "nonstick"}
         style={{
-          marginTop: projPos - 70,
+          marginTop: projPos - 29,
         }}
       >
         <button className="logo relative inline-flex items-center justify-center p-0.5 mb-2 mr-2 overflow-hidden text-sm font-medium text-gray-900 rounded-lg group bg-gradient-to-br from-white to-white">
