@@ -1,0 +1,25 @@
+.listitem-title {
+  font-weight: bold;
+  color: rgb(133, 139, 143);
+  word-wrap: break-word;
+}
+.listitem-program {
+  font-style: italic;
+  color: rgb(133, 139, 143);
+  margin-right: auto;
+  margin-left: 10px;
+}
+.listitem-div {
+  display: flex;
+  justify-content: space-between;
+}
+.listitem-container {
+  margin-left: auto;
+  margin-right: auto;
+  width: 60vw;
+}
+
+.listitem-body {
+  display: flex;
+  max-width: 54vw !important;
+}

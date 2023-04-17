@@ -7,7 +7,7 @@ const Contact = () => {
     if (newTab) newTab.opener = null;
   };
   return (
-    <div id="contact" className="contact-body" style={{ marginTop: 1000 }}>
+    <div id="contact" className="contact-body" style={{ marginTop: "150px" }}>
       <hr></hr>
       <div className="title" style={{ marginTop: 20 }}>
         Contact
