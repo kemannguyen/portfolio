@@ -49,8 +49,13 @@ const Projects = ({ setProjPosPC }) => {
   };
 
   const openLinkInNewTab = (url) => {
+    try{
     const newTab = window.open(url, "_blank", "noopener,noreferrer");
     if (newTab) newTab.opener = null;
+    }
+    catch(e){
+      ;
+    }
   };
   useEffect(() => {
     setTextDesc(ProjectData[index].description);
@@ -87,7 +92,7 @@ const Projects = ({ setProjPosPC }) => {
       <div className="image-slider">
         <button
           type="button"
-          className="image-button-l text-white bg-[#d1d1d1] hover:bg-[#24292F]/90 focus:outline-none font-medium rounded-lg px-5 py-2.5 text-center inline-flex items-center dark:focus:ring-gray-500 dark:hover:bg-[#050708]/30 mr-2 mb-2"
+          className="image-button-l text-white bg-[#24292F] hover:bg-[#d1d1d1] focus:outline-none font-medium rounded-lg px-5 py-2.5 text-center inline-flex items-center dark:focus:ring-gray-500 dark:hover:bg-[#d1d1d1]/30 mr-2 mb-2"
           onClick={handleBack}
         >
           <svg
@@ -109,7 +114,7 @@ const Projects = ({ setProjPosPC }) => {
         <img className="image-view" src={ProjectData[index].img} alt="image" />
         <button
           type="button"
-          className="image-button-r text-white bg-[#d1d1d1] hover:bg-[#24292F]/90 focus:outline-none font-medium rounded-lg px-5 py-2.5 text-center inline-flex items-center dark:focus:ring-gray-500 dark:hover:bg-[#050708]/30 mr-2 mb-2"
+          className="image-button-r text-white bg-[#24292F] hover:bg-[#d1d1d1] focus:outline-none font-medium rounded-lg px-5 py-2.5 text-center inline-flex items-center dark:focus:ring-gray-500 dark:hover:bg-[#d1d1d1]/30 mr-2 mb-2"
           onClick={handleNext}
         >
           <svg
