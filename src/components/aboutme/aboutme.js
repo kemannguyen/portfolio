@@ -10,8 +10,13 @@ const Aboutme = ({ setAboPosPC }) => {
 
   // This function calculate X and Y
   const getPosition = () => {
+    try{
     const y = boxRef3.current.offsetTop;
     setY(y);
+    }
+    catch(e){
+      ;
+    }
   };
 
   // Get the position of the red box in the beginning
@@ -67,7 +72,7 @@ const Aboutme = ({ setAboPosPC }) => {
         <div className="aboutme-img-comp">
           <img className="aboutme-img" src="https://i.imgur.com/bb8UqRc.png" />
           <div className="aboutme-competence">
-            <CompetenceList />
+            {/*<CompetenceList />*/}
           </div>
         </div>
       </div>

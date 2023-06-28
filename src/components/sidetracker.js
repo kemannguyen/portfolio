@@ -17,15 +17,15 @@ const Sidetracker = ({ projPos, eduPos, aboPos, expPos }) => {
     return () => window.removeEventListener("scroll", onScroll);
   }, [scrollValue]);
   useEffect(() => {
-    if (scrollValue < aboPos - 120) {
-      setAbo(false);
-      setEdu(false);
-      setProj(true);
-      setExp(false);
-    } else if (scrollValue > aboPos - 120 && scrollValue < eduPos - 120) {
+    if (scrollValue < projPos - 120) {
       setAbo(true);
       setEdu(false);
       setProj(false);
+      setExp(false);
+    } else if (scrollValue > projPos - 120 && scrollValue < eduPos - 120) {
+      setAbo(false);
+      setEdu(false);
+      setProj(true);
       setExp(false);
     } else if (scrollValue > eduPos - 120 && scrollValue < expPos - 120) {
       setAbo(false);
@@ -41,14 +41,14 @@ const Sidetracker = ({ projPos, eduPos, aboPos, expPos }) => {
   }, [scrollValue]);
 
   const updateIcons = () => {
-    if (scrollValue < aboPos - 120) {
-      setAbo(false);
-      setEdu(false);
-      setProj(true);
-    } else if (scrollValue > aboPos - 120 && scrollValue < eduPos - 120) {
+    if (scrollValue < projPos - 120) {
       setAbo(true);
       setEdu(false);
       setProj(false);
+    } else if (scrollValue > projPos - 120 && scrollValue < eduPos - 120) {
+      setAbo(false);
+      setEdu(false);
+      setProj(true);
     } else if (scrollValue > eduPos - 120) {
       setAbo(false);
       setEdu(true);

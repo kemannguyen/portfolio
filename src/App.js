@@ -21,8 +21,8 @@ const App = () => {
         aboPos={aboPos}
         expPos={expPos}
       />
-      <Projects setProjPosPC={setProjPos} />
       <Aboutme setAboPosPC={setAboPos} />
+      <Projects setProjPosPC={setProjPos} />
       <Eductation setEduPosPC={setEduPos} />
       <Experiences setExpPosPC={setExpPos} />
       <Contact />

@@ -1,4 +1,38 @@
-export const ProjectData = [
+export const ProjectDataFS = [
+  {
+    name: "Pokemon trainer app",
+    img: "https://i.imgur.com/tvHWjZO.png",
+    description:
+      "An website where the user can browse through the Pokemon catalogue to catch and release Pokemon to your profile" +
+      "<br><br>Deployed version: <a href=https://ng-assignment-pokemon-trainer.vercel.app/login target=_blank>https://ng-assignment-pokemon-trainer.vercel.app/login</a>",
+
+    githublink: "https://github.com/Otodekotto/ng-Assignment-Pokemon-Trainer",
+  },
+  {
+    name: "Humans vs Zombies",
+    img: "https://dvqlxo2m2q99q.cloudfront.net/000_clients/3321270/page/w1000-y22163VQw2cspjIO.png",
+    description:
+      "UPDATE TEXT" +
+      "<br><br>My role during this project" +
+      "<br> ● Development of concept" +
+      "<br> ● Project planning" +
+      "<br> ● Tool programmer" +
+      "<br> ● Dialogue author",
+    githublink: "https://github.com/Celezt/TeaParty",
+  },
+  {
+    name: "Dundrian",
+    img: "https://i.imgur.com/tvHWjZO.png",
+    description:
+      "An website where the user can play an online multiplayer game called Dundrian. The game is an party game filled with teamwork and deception where the objective of the majority is to kill an boss while other players want the boss to win." +
+      "<br><br>Deployed version: <a href=https://dundrian.vercel.app/ target=_blank>https://dundrian.vercel.app/</a>",
+
+    githublink: "https://github.com/Otodekotto/ng-Assignment-Pokemon-Trainer",
+  },
+];
+
+
+export const ProjectDataGame = [
   {
     name: "Just Jump!",
     img: "https://i.imgur.com/HoeeBSW.png",
@@ -42,35 +76,5 @@ export const ProjectData = [
       "<br> ● Tool programmer" +
       "<br> ● Dialogue author",
     githublink: "https://github.com/Celezt/TeaParty",
-  },
-  {
-    name: "Pokemon trainer app",
-    img: "https://i.imgur.com/tvHWjZO.png",
-    description:
-      "An website where the user can browse through the Pokemon catalogue to catch and release Pokemon to your profile" +
-      "<br><br>Deployed version: <a href=https://ng-assignment-pokemon-trainer.vercel.app/login target=_blank>https://ng-assignment-pokemon-trainer.vercel.app/login</a>",
-
-    githublink: "https://github.com/Otodekotto/ng-Assignment-Pokemon-Trainer",
-  },
-  {
-    name: "Humans vs Zombies",
-    img: "https://dvqlxo2m2q99q.cloudfront.net/000_clients/3321270/page/w1000-y22163VQw2cspjIO.png",
-    description:
-      "" +
-      "<br><br>My role during this project" +
-      "<br> ● Development of concept" +
-      "<br> ● Project planning" +
-      "<br> ● Tool programmer" +
-      "<br> ● Dialogue author",
-    githublink: "https://github.com/Celezt/TeaParty",
-  },
-  {
-    name: "Pokemon trainer app",
-    img: "https://i.imgur.com/tvHWjZO.png",
-    description:
-      "An website where the user can browse through the Pokemon catalogue to catch and release Pokemon to your profile" +
-      "<br><br>Deployed version: <a href=https://ng-assignment-pokemon-trainer.vercel.app/login target=_blank>https://ng-assignment-pokemon-trainer.vercel.app/login</a>",
-
-    githublink: "https://github.com/Otodekotto/ng-Assignment-Pokemon-Trainer",
   },
 ];

@@ -10,8 +10,12 @@ const Eductation = ({ setEduPosPC }) => {
 
   // This function calculate X and Y
   const getPosition = () => {
+    try{
     const y = boxRef.current.offsetTop;
     setY(y);
+    }catch(e){
+      ;
+    }
   };
 
   // Get the position of the red box in the beginning
