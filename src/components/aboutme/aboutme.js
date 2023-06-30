@@ -70,7 +70,7 @@ const Aboutme = ({ setAboPosPC }) => {
           </span>
         </div>
         <div className="aboutme-img-comp">
-          <img className="aboutme-img" src="https://i.imgur.com/bb8UqRc.png" />
+          <img className="aboutme-img" src="https://i.imgur.com/NNi1gvj.png" />
           <div className="aboutme-competence">
             {/*<CompetenceList />*/}
           </div>

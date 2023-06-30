@@ -9,20 +9,30 @@ export const ProjectDataFS = [
     githublink: "https://github.com/Otodekotto/ng-Assignment-Pokemon-Trainer",
   },
   {
+    name: "Lost in translation",
+    img: "https://camo.githubusercontent.com/d003d003f3448ed844e861fb66c936579de25fe3fc9cfd69f28f5690712ccbed/68747470733a2f2f692e696d6775722e636f6d2f4d424a6a336f662e706e67",
+    description:
+      "An website where the user can translate words into sign language, the user will have an translation history linked to the username",
+
+    githublink: "https://assignment-2-tau.vercel.app",
+  },
+  {
     name: "Humans vs Zombies",
-    img: "https://dvqlxo2m2q99q.cloudfront.net/000_clients/3321270/page/w1000-y22163VQw2cspjIO.png",
+    img: "https://camo.githubusercontent.com/7614749c52006cedaa4acc8b7d575e9f1de77d185b5bf28824cb1b3ff7161d2a/68747470733a2f2f692e696d6775722e636f6d2f743353706b486f2e706e67",
     description:
       "UPDATE TEXT" +
       "<br><br>My role during this project" +
       "<br> ● Development of concept" +
       "<br> ● Project planning" +
-      "<br> ● Tool programmer" +
-      "<br> ● Dialogue author",
-    githublink: "https://github.com/Celezt/TeaParty",
+      "<br> The live deployed version is down due to google map and azure APIs" +
+      "<br><br> github"+
+      "<br> frontend:  <a href=https://github.com/Nirase/HvZCaseFrontend target=_blank><u>https://github.com/Nirase/HvZCaseFrontend</u></a>"+
+      "<br> backend:  <a href=https://github.com/Nirase/HvZCaseBackend target=_blank><u>https://github.com/Nirase/HvZCaseBackend</u></a>",
+    githublink: "",
   },
   {
     name: "Dundrian",
-    img: "https://i.imgur.com/tvHWjZO.png",
+    img: "https://i.imgur.com/ZHqUl6p.png",
     description:
       "An website where the user can play an online multiplayer game called Dundrian. The game is an party game filled with teamwork and deception where the objective of the majority is to kill an boss while other players want the boss to win." +
       "<br><br>Deployed version: <a href=https://dundrian.vercel.app/ target=_blank>https://dundrian.vercel.app/</a>",

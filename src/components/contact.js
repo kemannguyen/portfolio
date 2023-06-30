@@ -3,8 +3,12 @@ import "../styles/contact.css";
 
 const Contact = () => {
   const openLinkInNewTab = (url) => {
+    try{
     const newTab = window.open(url, "_blank", "noopener,noreferrer");
     if (newTab) newTab.opener = null;
+    }catch(e){
+      ;
+    }
   };
   return (
     <div id="contact" className="contact-body" style={{ marginTop: "150px" }}>
