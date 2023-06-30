@@ -1,6 +1,6 @@
 import React, { useEffect, useState, useRef } from "react";
 import "../../styles/projects.css";
-import { ProjectDataFS, ProjectDataGame } from "./projectdata";
+import { ProjectDataFS, ProjectDataGame, ProjectDataIllustration } from "./projectdata";
 import Tabs from '@mui/material/Tabs';
 import Tab from '@mui/material/Tab';
 import Typography from '@mui/material/Typography';
@@ -55,6 +55,13 @@ const Projects = ({ setProjPosPC }) => {
     }
     setIndex(tempIndex);
   };
+  const handleNextIllustration = () => {
+    let tempIndex = index + 1;
+    if (tempIndex > ProjectDataIllustration.length - 1) {
+      tempIndex = 0;
+    }
+    setIndex(tempIndex);
+  };
 
   const handleBackFS = () => {
     let tempIndex = index - 1;
@@ -67,6 +74,13 @@ const Projects = ({ setProjPosPC }) => {
     let tempIndex = index - 1;
     if (tempIndex < 0) {
       tempIndex = ProjectDataGame.length - 1;
+    }
+    setIndex(tempIndex);
+  };
+  const handleBackIllustration = () => {
+    let tempIndex = index - 1;
+    if (tempIndex < 0) {
+      tempIndex = ProjectDataIllustration.length - 1;
     }
     setIndex(tempIndex);
   };
@@ -102,7 +116,7 @@ const Projects = ({ setProjPosPC }) => {
   };
   
   let liveBtn;
-
+  if(value == 0){
   if(ProjectDataFS[index].githublink != ""){
   liveBtn = ( <button
     type="button"
@@ -113,7 +127,9 @@ const Projects = ({ setProjPosPC }) => {
   </button>)}else{
     liveBtn = <div></div>
   }
+}
 
+    
   let projectComp;
 
   if(value == 0){
@@ -312,13 +328,13 @@ const Projects = ({ setProjPosPC }) => {
           fontSize: 15,
         }}
       >
-        {index + 1}/{ProjectDataGame.length}
+        {index + 1}/{ProjectDataIllustration.length}
       </span>
         <div className="image-slider">
         <button
           type="button"
           className="image-button-l text-white bg-[#24292F] hover:bg-[#d1d1d1] focus:outline-none font-medium rounded-lg px-5 py-2.5 text-center inline-flex items-center dark:focus:ring-gray-500 dark:hover:bg-[#d1d1d1]/30 mr-2 mb-2"
-          onClick={handleBackGame}
+          onClick={handleBackIllustration}
         >
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -337,11 +353,11 @@ const Projects = ({ setProjPosPC }) => {
           </svg>
         </button>
         
-        <img className="image-view" src={ProjectDataGame[index].img} alt="image" />
+        <img className="image-view" src={ProjectDataIllustration[index].img} alt="image" />
         <button
           type="button"
           className="image-button-r text-white bg-[#24292F] hover:bg-[#d1d1d1] focus:outline-none font-medium rounded-lg px-5 py-2.5 text-center inline-flex items-center dark:focus:ring-gray-500 dark:hover:bg-[#d1d1d1]/30 mr-2 mb-2"
-          onClick={handleNextGame}
+          onClick={handleNextIllustration}
         >
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -361,7 +377,7 @@ const Projects = ({ setProjPosPC }) => {
         </button>
       </div>
       <div className="project-container">
-        <h1 className="project-title">{ProjectDataGame[index].name}</h1>
+        <h1 className="project-title">{ProjectDataIllustration[index].name}</h1>
         <div
           style={{
             flexDirection: "row",
@@ -379,13 +395,6 @@ const Projects = ({ setProjPosPC }) => {
             justifyContent: "flex-end",
           }}
         >
-          <button
-            type="button"
-            className="text-white bg-[#24292F] hover:bg-[#24292F]/90 focus:ring-4 focus:outline-none focus:ring-[#24292F]/50 font-medium rounded-lg text-sm px-5 py-2.5 text-center inline-flex items-center dark:focus:ring-gray-500 dark:hover:bg-[#050708]/30 mr-2 mb-2"
-            onClick={() => openLinkInNewTab(ProjectDataGame[index].githublink)}
-          >
-            See more
-          </button>
         </div>
       </div>
     </div>)

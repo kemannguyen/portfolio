@@ -29,9 +29,9 @@ const Contact = () => {
           keman.nguyen@outlook.com
         </div>
         <div className="contact-info" style={{ margin: 10 }}>
-          <b>Address: </b>
+          <b>Located at: </b>
           <br></br>
-          Sofielundsvägen 3, Malmö
+          Malmö, Sweden
         </div>
       </div>
       <div style={{ display: "flex", justifyContent: "flex-end" }}>

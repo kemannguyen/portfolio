@@ -88,3 +88,70 @@ export const ProjectDataGame = [
     githublink: "https://github.com/Celezt/TeaParty",
   },
 ];
+export const ProjectDataIllustration = [
+  {
+    name: "Just Jump!",
+    img: "https://cdn.discordapp.com/attachments/671486842960478243/956710559196254288/Rimuru_sketch.png",
+    description:
+      "Just Jump! is a fun and fast paced 2D platformer where you as a has to control 3 cubes simultaneously. The obstacles are integrated with music to make each level more enjoyable and easy for the player to get the timing right!" +
+      "<br>" +
+      "<br>My role during this project" +
+      "<br> ● Gameplay programmer" +
+      "<br> ● Level design" +
+      "<br> ● Design documentation" +
+      "<br> ● Project planning",
+    githublink: "",
+  },
+  {
+    name: "Twitch/YT profile avatar",
+    img: "https://i.imgur.com/LFUoWzc.png",
+    description:
+      "Just Jump! is a fun and fast paced 2D platformer where you as a has to control 3 cubes simultaneously. The obstacles are integrated with music to make each level more enjoyable and easy for the player to get the timing right!" +
+      "<br>" +
+      "<br>My role during this project" +
+      "<br> ● Gameplay programmer" +
+      "<br> ● Level design" +
+      "<br> ● Design documentation" +
+      "<br> ● Project planning",
+    githublink: "",
+  },
+  {
+    name: "Hobby art",
+    img: "https://cdn.discordapp.com/attachments/671486842960478243/825848055668015124/sky.png",
+    description:
+      "Just Jump! is a fun and fast paced 2D platformer where you as a has to control 3 cubes simultaneously. The obstacles are integrated with music to make each level more enjoyable and easy for the player to get the timing right!" +
+      "<br>" +
+      "<br>My role during this project" +
+      "<br> ● Gameplay programmer" +
+      "<br> ● Level design" +
+      "<br> ● Design documentation" +
+      "<br> ● Project planning",
+    githublink: "",
+  },
+  {
+    name: "Hobby art",
+    img: "https://cdn.discordapp.com/attachments/671486842960478243/727656821489270835/mush_village.png",
+    description:
+      "Just Jump! is a fun and fast paced 2D platformer where you as a has to control 3 cubes simultaneously. The obstacles are integrated with music to make each level more enjoyable and easy for the player to get the timing right!" +
+      "<br>" +
+      "<br>My role during this project" +
+      "<br> ● Gameplay programmer" +
+      "<br> ● Level design" +
+      "<br> ● Design documentation" +
+      "<br> ● Project planning",
+    githublink: "",
+  },
+  {
+    name: "Hobby art",
+    img: "https://cdn.discordapp.com/attachments/671486842960478243/728068395387584572/floating_sky.png",
+    description:
+      "Just Jump! is a fun and fast paced 2D platformer where you as a has to control 3 cubes simultaneously. The obstacles are integrated with music to make each level more enjoyable and easy for the player to get the timing right!" +
+      "<br>" +
+      "<br>My role during this project" +
+      "<br> ● Gameplay programmer" +
+      "<br> ● Level design" +
+      "<br> ● Design documentation" +
+      "<br> ● Project planning",
+    githublink: "",
+  },
+];
