@@ -48,7 +48,7 @@ export const ProjectDataGame = [
     name: "Just Jump!",
     img: "https://i.imgur.com/HoeeBSW.png",
     description:
-      "Just Jump! is a fun and fast paced 2D platformer where you as a has to control 3 cubes simultaneously. The obstacles are integrated with music to make each level more enjoyable and easy for the player to get the timing right!" +
+      "Just Jump! is a fun and fast paced 2D platformer where the player has to control 3 cubes simultaneously. The obstacles are integrated with music to make each level more enjoyable and easy for the player to get the timing right!" +
       "<br>" +
       "<br>My role during this project" +
       "<br> ● Gameplay programmer" +
@@ -61,7 +61,7 @@ export const ProjectDataGame = [
     name: "The last ztand",
     img: "https://dvqlxo2m2q99q.cloudfront.net/000_clients/3321270/page/w1000-j223hLLy70BDK5.png",
     description:
-      "The last Ztand is a arcade zombie survival. Try to survive as long as possible in the post apocalyptic world. The game has three different phases. The day phase were the player collects resourses, the building phase where the player designs and builds the home base using the resourses collected and the night phase where the player defends the home base against the zombies in real time!" +
+      "The last Ztand is a top-down arcade zombie survival. The game has three different phases. The day phase were the player collects resourses, the building phase where the player designs and builds the home base using the resourses collected and the night phase where the player defends the home base against the zombies in real time! Try to survive as long as possible in the post apocalyptic world." +
       " Me and a project member were responsible for the night phase." +
       "<br>" +
       "<br>My role during this project" +
@@ -91,7 +91,20 @@ export const ProjectDataGame = [
 ];
 export const ProjectDataIllustration = [
   {
-    name: "Just Jump!",
+    name: "Children's book illustration",
+    img: "https://cdn.discordapp.com/attachments/671486842960478243/825848055668015124/sky.png",
+    description:
+      "Just Jump! is a fun and fast paced 2D platformer where you as a has to control 3 cubes simultaneously. The obstacles are integrated with music to make each level more enjoyable and easy for the player to get the timing right!" +
+      "<br>" +
+      "<br>My role during this project" +
+      "<br> ● Gameplay programmer" +
+      "<br> ● Level design" +
+      "<br> ● Design documentation" +
+      "<br> ● Project planning",
+    githublink: "",
+  },
+  {
+    name: "Commision work",
     img: "https://cdn.discordapp.com/attachments/671486842960478243/956710559196254288/Rimuru_sketch.png",
     description:
       "Just Jump! is a fun and fast paced 2D platformer where you as a has to control 3 cubes simultaneously. The obstacles are integrated with music to make each level more enjoyable and easy for the player to get the timing right!" +

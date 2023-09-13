@@ -5,8 +5,8 @@ const Sidetracker = ({ projPos, eduPos, aboPos, expPos }) => {
   const [scrollValue, setScrollValue] = useState(0);
   const [atProject, setProj] = useState(true);
   const [atAboutMe, setAbo] = useState(false);
-  const [atEducation, setEdu] = useState(false);
-  const [atExperience, setExp] = useState(false);
+  //const [atEducation, setEdu] = useState(false);
+  //const [atExperience, setExp] = useState(false);
   useEffect(() => {
     const onScroll = (e) => {
       setScrollValue(e.target.documentElement.scrollTop);
@@ -19,42 +19,43 @@ const Sidetracker = ({ projPos, eduPos, aboPos, expPos }) => {
   useEffect(() => {
     if (scrollValue < projPos - 120) {
       setAbo(true);
-      setEdu(false);
+      //setEdu(false);
       setProj(false);
-      setExp(false);
-    } else if (scrollValue > projPos - 120 && scrollValue < eduPos - 120) {
+      //setExp(false);
+    } else/* if (scrollValue > projPos - 120 && scrollValue < eduPos - 120)*/ {
       setAbo(false);
-      setEdu(false);
+      //setEdu(false);
       setProj(true);
-      setExp(false);
-    } else if (scrollValue > eduPos - 120 && scrollValue < expPos - 120) {
-      setAbo(false);
-      setEdu(true);
-      setProj(false);
-      setExp(false);
-    } else if (scrollValue > expPos - 120) {
-      setAbo(false);
-      setEdu(false);
-      setProj(false);
-      setExp(true);
-    }
+      //setExp(false);
+    } //else if (scrollValue > eduPos - 120 && scrollValue < expPos - 120) {
+    //   setAbo(false);
+    //   setEdu(true);
+    //   setProj(false);
+    //   setExp(false);
+    // } else if (scrollValue > expPos - 120) {
+    //   setAbo(false);
+    //   setEdu(false);
+    //   setProj(false);
+    //   setExp(true);
+    // }
   }, [scrollValue]);
 
   const updateIcons = () => {
     if (scrollValue < projPos - 120) {
       setAbo(true);
-      setEdu(false);
+      //setEdu(false);
       setProj(false);
-    } else if (scrollValue > projPos - 120 && scrollValue < eduPos - 120) {
+   } else /*if (scrollValue > projPos - 120 && scrollValue < eduPos - 120) */{
       setAbo(false);
-      setEdu(false);
+      //setEdu(false);
       setProj(true);
-    } else if (scrollValue > eduPos - 120) {
-      setAbo(false);
-      setEdu(true);
-      setProj(false);
-      setExp(false);
-    }
+   }
+    // } else if (scrollValue > eduPos - 120) {
+    //   setAbo(false);
+    //   setEdu(true);
+    //   setProj(false);
+    //   setExp(false);
+    // }
   };
 
   //use when finding compoment scroll values
@@ -65,7 +66,7 @@ const Sidetracker = ({ projPos, eduPos, aboPos, expPos }) => {
   //854 -> 910, -1010   (56)
   //needs to have margin top and marginBot - at balance 100 between them
   //ex mt 200, mb-300
-  if (aboPos && eduPos && projPos) {
+  if (aboPos && projPos) {
     return (
       <div onResize={updateIcons}>
         <div
@@ -98,7 +99,7 @@ const Sidetracker = ({ projPos, eduPos, aboPos, expPos }) => {
             </div>
           </button>
         </div>
-        <div
+        {/* <div
           className={atEducation ? "stick" : "nonstick"}
           style={{
             marginTop: eduPos - 29,
@@ -128,8 +129,8 @@ const Sidetracker = ({ projPos, eduPos, aboPos, expPos }) => {
               </svg>
             </div>
           </button>
-        </div>
-        <div
+        </div> */}
+        {/* <div
           className={atExperience ? "stick" : "nonstick"}
           style={{ marginTop: expPos - 29 }}
         >
@@ -153,7 +154,7 @@ const Sidetracker = ({ projPos, eduPos, aboPos, expPos }) => {
               </svg>
             </div>
           </button>
-        </div>
+        </div> */}
         <div
           className={atProject ? "stick" : "nonstick"}
           style={{

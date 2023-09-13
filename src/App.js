@@ -8,23 +8,23 @@ import Sidetracker from "./components/sidetracker";
 import Experiences from "./components/experiences/experiences";
 
 const App = () => {
-  const [eduPos, setEduPos] = useState(-100);
+  //const [eduPos, setEduPos] = useState(-100);
   const [projPos, setProjPos] = useState(-100);
   const [aboPos, setAboPos] = useState(-100);
-  const [expPos, setExpPos] = useState(-100);
+  //const [expPos, setExpPos] = useState(-100);
   return (
     <>
       <Header />
       <Sidetracker
-        eduPos={eduPos}
+        //eduPos={eduPos}
         projPos={projPos}
         aboPos={aboPos}
-        expPos={expPos}
+        // expPos={expPos}
       />
       <Aboutme setAboPosPC={setAboPos} />
       <Projects setProjPosPC={setProjPos} />
-      <Eductation setEduPosPC={setEduPos} />
-      <Experiences setExpPosPC={setExpPos} />
+      {/* <Eductation setEduPosPC={setEduPos} />
+      <Experiences setExpPosPC={setExpPos} /> */}
       <Contact />
     </>
   );
