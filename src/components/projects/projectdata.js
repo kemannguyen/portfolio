@@ -6,7 +6,7 @@ export const ProjectDataFS = [
       "An website where the user can browse through the Pokemon catalogue to catch and release Pokemon to your profile" +
       "<br><br>Deployed version: <a href=https://ng-assignment-pokemon-trainer.vercel.app/login target=_blank>https://ng-assignment-pokemon-trainer.vercel.app/login</a>",
 
-    githublink: "https://github.com/Otodekotto/ng-Assignment-Pokemon-Trainer",
+    githublink: "https://ng-assignment-pokemon-trainer.vercel.app/loginr",
   },
   {
     name: "Lost in translation",
@@ -24,7 +24,7 @@ export const ProjectDataFS = [
       "<br><br>My role during this project" +
       "<br> ● Development of concept" +
       "<br> ● Project planning" +
-      "<br> The live deployed version is down due to google map and azure APIs" +
+      "<br> The live deployed version is down due to google map and azure APIs being discontinued" +
       "<br><br> github"+
       "<br> frontend:  <a href=https://github.com/Nirase/HvZCaseFrontend target=_blank><u>https://github.com/Nirase/HvZCaseFrontend</u></a>"+
       "<br> backend:  <a href=https://github.com/Nirase/HvZCaseBackend target=_blank><u>https://github.com/Nirase/HvZCaseBackend</u></a>",
@@ -34,10 +34,11 @@ export const ProjectDataFS = [
     name: "Dundrian",
     img: "https://i.imgur.com/ZHqUl6p.png",
     description:
-      "An website where the user can play an online multiplayer game called Dundrian. The game is an party game filled with teamwork and deception where the objective of the majority is to kill an boss while other players want the boss to win." +
-      "<br><br>Deployed version: <a href=https://dundrian.vercel.app/ target=_blank>https://dundrian.vercel.app/</a>",
+      "An website is an hobby project where the user can play an turn-based online multiplayer game called Dundrian. The game is an party game filled with teamwork and deception where the objective of the majority is to kill the boss while other players want to sabotage the other players and help the boss to win." +
+      "<br><br>This game is based on an novel board game my group created during my studies at Malmö University. More info about the game can be found below"+
+      "<br>Game GDD: <a href=https://drive.google.com/file/d/1FMqZtF7Ha-ClJKQ6NzDmh3VZHDZiztEH/view?usp=drive_link target=_blank>https://drive.google.com/file/d/1FMqZtF7Ha-ClJKQ6NzDmh3VZHDZiztEH/view?usp=drive_link</a>",
 
-    githublink: "https://github.com/Otodekotto/ng-Assignment-Pokemon-Trainer",
+    githublink: "https://dundrian.vercel.app/",
   },
 ];
 
