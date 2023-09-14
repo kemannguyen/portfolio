@@ -49,7 +49,7 @@ const Aboutme = ({ setAboPosPC }) => {
             I studied Game development at Malmö University. During my time there
             I have finished multiple group projects, everything from making
             boardgames to creating digital games. The roles I have taken during
-            the projects are gameplay and AI programmer aswell as 3D Character
+            the projects are gameplay and AI programmer as well as 3D Character
             animator.
             <br></br>
             After that I was a participant in a fullstack developer program at
@@ -59,7 +59,7 @@ const Aboutme = ({ setAboPosPC }) => {
           <br></br>
           <span className="body-text " style={{ paddingRight: 40 }}>
             One of my passions aside from coding is to illustrate and animate.
-            The thing that I love with art is progression and self improvement,
+            The thing that I love with art is the attention to details, progression and self improvement,
             which is why I am always looking for opportunities to challange
             myself in order to grow.
           </span>
