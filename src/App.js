@@ -1,11 +1,11 @@
-import React, { useEffect, useState } from "react";
+import React, { useState } from "react";
 import Header from "./components/header";
 import Aboutme from "./components/aboutme/aboutme";
 import Projects from "./components/projects/projects";
 import Contact from "./components/contact";
-import Eductation from "./components/education/education";
+//import Eductation from "./components/education/education";
 import Sidetracker from "./components/sidetracker";
-import Experiences from "./components/experiences/experiences";
+//import Experiences from "./components/experiences/experiences";
 
 const App = () => {
   //const [eduPos, setEduPos] = useState(-100);
@@ -16,7 +16,7 @@ const App = () => {
     <>
       <Header />
       <Sidetracker
-        //eduPos={eduPos}
+        //neduPos={eduPos}
         projPos={projPos}
         aboPos={aboPos}
         // expPos={expPos}

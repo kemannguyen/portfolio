@@ -18,11 +18,12 @@ const Header = () => {
             : "https://i.imgur.com/UJdk3Hp.png"
         }
         onClick={openMenu}
+        alt=""
       />
       <div className="header h-20 p-3 bg-gradient-to-r sticky top-0 w-full">
-        <a className="inline-block font-bold text-5xl px-10 custom-text">
+        <span className="inline-block font-bold text-5xl px-10 custom-text">
           Keman Nguyen
-        </a>
+        </span>
       </div>
       <div className={menu ? "menu-box-active" : "menu-box"}>
         <Menu />

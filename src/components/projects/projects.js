@@ -3,7 +3,7 @@ import "../../styles/projects.css";
 import { ProjectDataFS, ProjectDataGame, ProjectDataIllustration } from "./projectdata";
 import Tabs from '@mui/material/Tabs';
 import Tab from '@mui/material/Tab';
-import Typography from '@mui/material/Typography';
+//import Typography from '@mui/material/Typography';
 import Box from '@mui/material/Box';
 
 const Projects = ({ setProjPosPC }) => {
@@ -12,6 +12,9 @@ const Projects = ({ setProjPosPC }) => {
 
   // THis ref will be connected to the orange box
   const boxRef2 = useRef();
+
+  //tabs
+  const [value, setValue] = React.useState(0);
 
   // Y
   const [y, setY] = useState();
@@ -96,19 +99,21 @@ const Projects = ({ setProjPosPC }) => {
   };
   
   useEffect(() => {
-    if(value == 0){
+    if(value === 0){
       setTextDesc(ProjectDataFS[index].description);
     }
-    else if(value == 1){
+    else if(value === 1){
       setTextDesc(ProjectDataGame[index].description);
+    }
+    else{
+      setTextDesc(ProjectDataIllustration[index].description);
     }
     if (textDesc) {
       document.getElementById("proj-desc").innerHTML = textDesc;
     }
-  });
+  },[value, textDesc, index]);
   
-  //tabs
-  const [value, setValue] = React.useState(0);
+
   
   const handleChange = (event, newValue) => {
     setValue(newValue);
@@ -116,8 +121,8 @@ const Projects = ({ setProjPosPC }) => {
   };
   
   let liveBtn;
-  if(value == 0){
-  if(ProjectDataFS[index].githublink != ""){
+  if(value === 0){
+  if(ProjectDataFS[index].githublink !== ""){
   liveBtn = ( <button
     type="button"
     className="text-white bg-[#24292F] hover:bg-[#24292F]/90 focus:ring-4 focus:outline-none focus:ring-[#24292F]/50 font-medium rounded-lg text-sm px-5 py-2.5 text-center inline-flex items-center dark:focus:ring-gray-500 dark:hover:bg-[#050708]/30 mr-2 mb-2"
@@ -132,7 +137,7 @@ const Projects = ({ setProjPosPC }) => {
     
   let projectComp;
 
-  if(value == 0){
+  if(value === 0){
   projectComp = (
     <div>
       <span
@@ -168,7 +173,7 @@ const Projects = ({ setProjPosPC }) => {
             />
           </svg>
         </button>
-        <img className="image-view" src={ProjectDataFS[index].img} alt="image" />
+        <img className="image-view" src={ProjectDataFS[index].img} alt="" />
         <button
           type="button"
           className="image-button-r text-white bg-[#24292F] hover:bg-[#d1d1d1] focus:outline-none font-medium rounded-lg px-5 py-2.5 text-center inline-flex items-center dark:focus:ring-gray-500 dark:hover:bg-[#d1d1d1]/30 mr-2 mb-2"
@@ -214,7 +219,7 @@ const Projects = ({ setProjPosPC }) => {
         </div>
       </div>
     </div>)
-  }else if(value ==1){
+  }else if(value === 1){
     projectComp = (<div>
       <span
         style={{
@@ -250,7 +255,7 @@ const Projects = ({ setProjPosPC }) => {
           </svg>
         </button>
         
-        <img className="image-view" src={ProjectDataGame[index].img} alt="image" />
+        <img className="image-view" src={ProjectDataGame[index].img} alt="" />
         <button
           type="button"
           className="image-button-r text-white bg-[#24292F] hover:bg-[#d1d1d1] focus:outline-none font-medium rounded-lg px-5 py-2.5 text-center inline-flex items-center dark:focus:ring-gray-500 dark:hover:bg-[#d1d1d1]/30 mr-2 mb-2"
@@ -317,7 +322,7 @@ const Projects = ({ setProjPosPC }) => {
         </div>
       </div>
     </div>)
-  }else if(value ==2){
+  }else if(value === 2){
     projectComp = (<div>
       <span
         style={{
@@ -353,7 +358,7 @@ const Projects = ({ setProjPosPC }) => {
           </svg>
         </button>
         
-        <img className="image-view" src={ProjectDataIllustration[index].img} alt="image" />
+        <img className="image-view" src={ProjectDataIllustration[index].img} alt="" />
         <button
           type="button"
           className="image-button-r text-white bg-[#24292F] hover:bg-[#d1d1d1] focus:outline-none font-medium rounded-lg px-5 py-2.5 text-center inline-flex items-center dark:focus:ring-gray-500 dark:hover:bg-[#d1d1d1]/30 mr-2 mb-2"
@@ -392,7 +397,7 @@ const Projects = ({ setProjPosPC }) => {
             maxWidth: "40.5vw",
             marginLeft: "12vw",
             display: "flex",
-            justifyContent: "flex-end",
+            justifyContent: "center",
           }}
         >
         </div>

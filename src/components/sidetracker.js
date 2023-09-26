@@ -7,6 +7,7 @@ const Sidetracker = ({ projPos, eduPos, aboPos, expPos }) => {
   const [atAboutMe, setAbo] = useState(false);
   //const [atEducation, setEdu] = useState(false);
   //const [atExperience, setExp] = useState(false);
+
   useEffect(() => {
     const onScroll = (e) => {
       setScrollValue(e.target.documentElement.scrollTop);
@@ -16,6 +17,7 @@ const Sidetracker = ({ projPos, eduPos, aboPos, expPos }) => {
 
     return () => window.removeEventListener("scroll", onScroll);
   }, [scrollValue]);
+
   useEffect(() => {
     if (scrollValue < projPos - 120) {
       setAbo(true);
@@ -38,7 +40,7 @@ const Sidetracker = ({ projPos, eduPos, aboPos, expPos }) => {
     //   setProj(false);
     //   setExp(true);
     // }
-  }, [scrollValue]);
+  }, [scrollValue, projPos]);
 
   const updateIcons = () => {
     if (scrollValue < projPos - 120) {

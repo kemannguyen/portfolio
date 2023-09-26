@@ -3,8 +3,8 @@ export const ProjectDataFS = [
     name: "Pokemon trainer app",
     img: "https://i.imgur.com/tvHWjZO.png",
     description:
-      "An website where the user can browse through the Pokemon catalogue to catch and release Pokemon to your profile" +
-      "<br><br>Deployed version: <a href=https://ng-assignment-pokemon-trainer.vercel.app/login target=_blank>https://ng-assignment-pokemon-trainer.vercel.app/login</a>",
+      "An website created together with an collegue where the user can log in to browse through the Pokemon catalogue in order to catch and release Pokemon to their personal profile." +
+      "<br><br>",
 
     githublink: "https://ng-assignment-pokemon-trainer.vercel.app/loginr",
   },
@@ -12,7 +12,10 @@ export const ProjectDataFS = [
     name: "Lost in translation",
     img: "https://camo.githubusercontent.com/d003d003f3448ed844e861fb66c936579de25fe3fc9cfd69f28f5690712ccbed/68747470733a2f2f692e696d6775722e636f6d2f4d424a6a336f662e706e67",
     description:
-      "An website where the user can translate words into sign language, the user will have an translation history linked to the username",
+      "An website created with a small project group where the user can translate words into sign language, the user will have an translation history linked to the username" +
+      "<br><br>My role during this project" +
+      "<br> ● Translation page functionality and design" +
+      "<br> ● Header functionality and design",
 
     githublink: "https://assignment-2-tau.vercel.app",
   },
@@ -20,11 +23,12 @@ export const ProjectDataFS = [
     name: "Humans vs Zombies",
     img: "https://camo.githubusercontent.com/7614749c52006cedaa4acc8b7d575e9f1de77d185b5bf28824cb1b3ff7161d2a/68747470733a2f2f692e696d6775722e636f6d2f743353706b486f2e706e67",
     description:
-      "UPDATE TEXT" +
+      "Website where the users can play an advanced game of tag called Humans vs Zombies. The site got both admin and player features where the admins can create, delete and modify games. The players can join and access game information such as amount of players, players alive, game field, map with missions, different chatrooms and their unique bite code. When the player becomes a zombie they unlock a kill functionality where they enter the bite code in order to kill a living player." +
       "<br><br>My role during this project" +
-      "<br> ● Development of concept" +
-      "<br> ● Project planning" +
-      "<br> The live deployed version is down due to google map and azure APIs being discontinued" +
+      "<br> ● Development admin functionality and page design" +
+      "<br> ● Security with keycloak" +
+      "<br> ● Assistance with Backend" +
+      "<br> ● Assistance with Admin related map functionality" +
       "<br><br> github"+
       "<br> frontend:  <a href=https://github.com/Nirase/HvZCaseFrontend target=_blank><u>https://github.com/Nirase/HvZCaseFrontend</u></a>"+
       "<br> backend:  <a href=https://github.com/Nirase/HvZCaseBackend target=_blank><u>https://github.com/Nirase/HvZCaseBackend</u></a>",
@@ -34,7 +38,7 @@ export const ProjectDataFS = [
     name: "Dundrian",
     img: "https://i.imgur.com/ZHqUl6p.png",
     description:
-      "An website is an hobby project where the user can play an turn-based online multiplayer game called Dundrian. The game is an party game filled with teamwork and deception where the objective of the majority is to kill the boss while other players want to sabotage the other players and help the boss to win." +
+      "This website is an hobby project where the user can play an turn-based online multiplayer game called Dundrian. The game is an party game filled with teamwork and deception where the objective of the majority is to kill the boss while other players want to sabotage the other players and help the boss to win." +
       "<br><br>This game is based on an novel board game my group created during my studies at Malmö University. More info about the game can be found below"+
       "<br>Game GDD: <a href=https://drive.google.com/file/d/1FMqZtF7Ha-ClJKQ6NzDmh3VZHDZiztEH/view?usp=drive_link target=_blank>https://drive.google.com/file/d/1FMqZtF7Ha-ClJKQ6NzDmh3VZHDZiztEH/view?usp=drive_link</a>",
 
@@ -94,78 +98,42 @@ export const ProjectDataIllustration = [
     name: "Children's book illustration",
     img: "https://cdn.discordapp.com/attachments/671486842960478243/825848055668015124/sky.png",
     description:
-      "Just Jump! is a fun and fast paced 2D platformer where you as a has to control 3 cubes simultaneously. The obstacles are integrated with music to make each level more enjoyable and easy for the player to get the timing right!" +
-      "<br>" +
-      "<br>My role during this project" +
-      "<br> ● Gameplay programmer" +
-      "<br> ● Level design" +
-      "<br> ● Design documentation" +
-      "<br> ● Project planning",
+      "Drew illustrations for a childrens book",
     githublink: "",
   },
   {
     name: "Commision work",
     img: "https://cdn.discordapp.com/attachments/671486842960478243/956710559196254288/Rimuru_sketch.png",
     description:
-      "Just Jump! is a fun and fast paced 2D platformer where you as a has to control 3 cubes simultaneously. The obstacles are integrated with music to make each level more enjoyable and easy for the player to get the timing right!" +
-      "<br>" +
-      "<br>My role during this project" +
-      "<br> ● Gameplay programmer" +
-      "<br> ● Level design" +
-      "<br> ● Design documentation" +
-      "<br> ● Project planning",
+      "Illustrations I've created as commison work for streamers while freelancing",
     githublink: "",
   },
   {
     name: "Twitch/YT profile avatar",
     img: "https://i.imgur.com/LFUoWzc.png",
     description:
-      "Just Jump! is a fun and fast paced 2D platformer where you as a has to control 3 cubes simultaneously. The obstacles are integrated with music to make each level more enjoyable and easy for the player to get the timing right!" +
-      "<br>" +
-      "<br>My role during this project" +
-      "<br> ● Gameplay programmer" +
-      "<br> ● Level design" +
-      "<br> ● Design documentation" +
-      "<br> ● Project planning",
+      "Illustrations I've created as commison work for streamers while freelancing",
     githublink: "",
   },
   {
     name: "Hobby art",
     img: "https://cdn.discordapp.com/attachments/671486842960478243/825848055668015124/sky.png",
     description:
-      "Just Jump! is a fun and fast paced 2D platformer where you as a has to control 3 cubes simultaneously. The obstacles are integrated with music to make each level more enjoyable and easy for the player to get the timing right!" +
-      "<br>" +
-      "<br>My role during this project" +
-      "<br> ● Gameplay programmer" +
-      "<br> ● Level design" +
-      "<br> ● Design documentation" +
-      "<br> ● Project planning",
+    "Illustrations I've created during the process of self improvement",
     githublink: "",
   },
   {
     name: "Hobby art",
     img: "https://cdn.discordapp.com/attachments/671486842960478243/727656821489270835/mush_village.png",
     description:
-      "Just Jump! is a fun and fast paced 2D platformer where you as a has to control 3 cubes simultaneously. The obstacles are integrated with music to make each level more enjoyable and easy for the player to get the timing right!" +
-      "<br>" +
-      "<br>My role during this project" +
-      "<br> ● Gameplay programmer" +
-      "<br> ● Level design" +
-      "<br> ● Design documentation" +
-      "<br> ● Project planning",
+    "Illustrations I've created during the process of self improvement",
     githublink: "",
   },
   {
     name: "Hobby art",
     img: "https://cdn.discordapp.com/attachments/671486842960478243/728068395387584572/floating_sky.png",
     description:
-      "Just Jump! is a fun and fast paced 2D platformer where you as a has to control 3 cubes simultaneously. The obstacles are integrated with music to make each level more enjoyable and easy for the player to get the timing right!" +
-      "<br>" +
-      "<br>My role during this project" +
-      "<br> ● Gameplay programmer" +
-      "<br> ● Level design" +
-      "<br> ● Design documentation" +
-      "<br> ● Project planning",
+      "Illustrations I've created during the process of self improvement",
     githublink: "",
   },
 ];
