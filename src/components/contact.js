@@ -66,7 +66,7 @@ const Contact = () => {
             )
           }
         >
-          <div className="contact-btn-fill relative px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 rounded-md group-hover:bg-opacity-0">
+          <div className="contact-btn-fill relative px-5 py-2.5 transition-all ease-in duration-75 bg-black dark:bg-gray-900 rounded-md group-hover:bg-white">
             {" "}
             <svg
               style={{ marginTop: -2.6, marginLeft: -12.8 }}
@@ -91,7 +91,7 @@ const Contact = () => {
             openLinkInNewTab("https://www.facebook.com/kemanking/")
           }
         >
-          <div className="contact-btn-fill relative px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 rounded-md group-hover:bg-opacity-0">
+          <div className="contact-btn-fill relative px-5 py-2.5 transition-all ease-in duration-75 bg-black dark:bg-gray-900 rounded-md group-hover:bg-opacity-0">
             {" "}
             <svg
               className="w-6 h-6 -ml-3"
@@ -104,7 +104,7 @@ const Contact = () => {
               viewBox="0 0 320 512"
             >
               <path
-                fill="currentColor"
+                fill="white"
                 d="M279.1 288l14.22-92.66h-88.91v-60.13c0-25.35 12.42-50.06 52.24-50.06h40.42V6.26S260.4 0 225.4 0c-73.22 0-121.1 44.38-121.1 124.7v70.62H22.89V288h81.39v224h100.2V288z"
               ></path>
             </svg>
@@ -116,7 +116,7 @@ const Contact = () => {
             openLinkInNewTab("https://www.instagram.com/kemannguyen/")
           }
         >
-          <div className="contact-btn-fill relative px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 rounded-md group-hover:bg-opacity-0">
+          <div className="contact-btn-fill relative px-5 py-2.5 transition-all ease-in duration-75 bg-black dark:bg-gray-900 rounded-md group-hover:bg-opacity-0">
             {" "}
             <svg
               style={{

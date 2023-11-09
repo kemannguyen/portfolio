@@ -77,7 +77,7 @@ const Sidetracker = ({ projPos, eduPos, aboPos, expPos }) => {
         >
           {" "}
           <button className="logo relative inline-flex items-center justify-center p-0.5 mb-2 mr-2 overflow-hidden text-sm font-medium text-gray-900 rounded-lg group bg-gradient-to-br from-white to-white">
-            <div className="contact-btn-fill  relative px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 rounded-md">
+            <div className="contact-btn-fill  relative px-5 py-2.5 transition-all ease-in duration-75 bg-black dark:bg-gray-900 rounded-md">
               {" "}
               <svg
                 style={{ marginTop: -11.6, marginLeft: -22.8 }}
@@ -164,7 +164,7 @@ const Sidetracker = ({ projPos, eduPos, aboPos, expPos }) => {
           }}
         >
           <button className="logo relative inline-flex items-center justify-center p-0.5 mb-2 mr-2 overflow-hidden text-sm font-medium text-gray-900 rounded-lg group bg-gradient-to-br from-white to-white">
-            <div className="contact-btn-fill relative px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 rounded-md">
+            <div className="contact-btn-fill relative px-5 py-2.5 transition-all ease-in duration-75 bg-black dark:bg-gray-900 rounded-md">
               {" "}
               <svg
                 style={{ marginLeft: -15, marginTop: -4 }}
