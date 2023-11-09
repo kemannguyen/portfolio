@@ -96,7 +96,7 @@ export const ProjectDataGame = [
 export const ProjectDataIllustration = [
   {
     name: "Children's book illustration",
-    img: "https://cdn.discordapp.com/attachments/671486842960478243/825848055668015124/sky.png",
+    img: "https://i.imgur.com/sfRKcXp.jpg",
     description:
       "Drew illustrations for a childrens book",
     githublink: "",
