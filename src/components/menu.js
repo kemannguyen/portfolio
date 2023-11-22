@@ -34,12 +34,7 @@ const Menu = () => {
           <button className="menu-option" onClick={scrollToProjects}>
             <b>Projects</b>
           </button>
-          <button className="menu-option" onClick={scrollToEducation}>
-            <b>Education</b>
-          </button>
-          <button className="menu-option" onClick={scrollToExperiences}>
-            <b>Experiences</b>
-          </button>
+          
           <button className="menu-option" onClick={scrollToContact}>
             <b>Contact info</b>
           </button>
@@ -50,3 +45,12 @@ const Menu = () => {
 };
 
 export default Menu;
+
+//add this
+/*<button className="menu-option" onClick={scrollToEducation}>
+    <b>Education</b>
+  </button>
+  <button className="menu-option" onClick={scrollToExperiences}>
+    <b>Experiences</b>
+  </button>
+*/
