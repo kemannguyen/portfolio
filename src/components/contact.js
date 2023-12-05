@@ -3,12 +3,10 @@ import "../styles/contact.css";
 
 const Contact = () => {
   const openLinkInNewTab = (url) => {
-    try{
-    const newTab = window.open(url, "_blank", "noopener,noreferrer");
-    if (newTab) newTab.opener = null;
-    }catch(e){
-      ;
-    }
+    try {
+      const newTab = window.open(url, "_blank", "noopener,noreferrer");
+      if (newTab) newTab.opener = null;
+    } catch (e) {}
   };
   return (
     <div id="contact" className="contact-body" style={{ marginTop: "150px" }}>
@@ -27,6 +25,11 @@ const Contact = () => {
           <b>Email: </b>
           <br></br>
           keman.nguyen@outlook.com
+          <br></br>
+          <br></br>
+          <br></br>
+          Webplats skapad av{" "}
+          <span className="font-extrabold">Keman Nguyen</span>
         </div>
         <div className="contact-info" style={{ margin: 10 }}>
           <b>Located at: </b>

@@ -28,7 +28,6 @@
   display: flex;
   justify-content: space-evenly;
   padding: 15px;
-  margin-left: 50px;
 }
 @media (max-width: 400px) {
   .contact-container {
