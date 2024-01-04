@@ -1,16 +1,29 @@
 export const ProjectDataFS = [
   {
-    name: "Pokemon trainer app",
-    img: "https://i.imgur.com/tvHWjZO.png",
+    name: "Skurup restaurang & grill",
+    img: "https://i.imgur.com/ea37hSH.png",
     description:
-      "An website created together with an collegue where the user can log in to browse through the Pokemon catalogue in order to catch and release Pokemon to their personal profile." +
-      "<br><br>",
+      "**work in progress** <br>" +
+      "This website is made for a restaurant whose sells home cooking and fast food. In the website the user can find all necessary information about the restaurant." +
+      "<br><br>Booking functionality isn't implemented since it isn't possible to book a table in the restaurant." +
+      "<br></a>",
 
-    githublink: "https://ng-assignment-pokemon-trainer.vercel.app/loginr",
+    githublink: "https://skurup-rog.vercel.app/",
+  },
+  {
+    name: "Dundrian",
+    img: "https://i.imgur.com/ZHqUl6p.png",
+    description:
+      "**work in progress** <br>" +
+      "This website is an hobby project where the user can play an turn-based online multiplayer game called Dundrian. The game is an party game filled with teamwork and deception where the objective of the majority is to kill the boss while other players want to sabotage the other players and help the boss to win." +
+      "<br><br>This game is based on an novel board game my group created during my studies at Malmö University. More info about the game can be found below" +
+      "<br>Game GDD: <a href=https://drive.google.com/file/d/1FMqZtF7Ha-ClJKQ6NzDmh3VZHDZiztEH/view?usp=drive_link target=_blank>https://drive.google.com/file/d/1FMqZtF7Ha-ClJKQ6NzDmh3VZHDZiztEH/view?usp=drive_link</a>",
+
+    githublink: "https://dundrian.vercel.app/",
   },
   {
     name: "Lost in translation",
-    img: "https://camo.githubusercontent.com/d003d003f3448ed844e861fb66c936579de25fe3fc9cfd69f28f5690712ccbed/68747470733a2f2f692e696d6775722e636f6d2f4d424a6a336f662e706e67",
+    img: "https://camo.githubusercontent.com/075f00d8c97e2f05aba708aa2b73f516bb399414e314a478b8274e6666de2b5d/68747470733a2f2f692e696d6775722e636f6d2f4d424a6a336f662e706e67",
     description:
       "An website created with a small project group where the user can translate words into sign language, the user will have an translation history linked to the username" +
       "<br><br>My role during this project" +
@@ -19,6 +32,16 @@ export const ProjectDataFS = [
 
     githublink: "https://assignment-2-tau.vercel.app",
   },
+  {
+    name: "Pokemon trainer app",
+    img: "https://i.imgur.com/tvHWjZO.png",
+    description:
+      "An website created together with an collegue where the user can log in to browse through the Pokemon catalogue in order to catch and release Pokemon to their personal profile." +
+      "<br><br>",
+
+    githublink: "https://ng-assignment-pokemon-trainer.vercel.app/loginr",
+  },
+
   {
     name: "Humans vs Zombies",
     img: "https://camo.githubusercontent.com/7614749c52006cedaa4acc8b7d575e9f1de77d185b5bf28824cb1b3ff7161d2a/68747470733a2f2f692e696d6775722e636f6d2f743353706b486f2e706e67",
@@ -33,26 +56,6 @@ export const ProjectDataFS = [
       "<br> frontend:  <a href=https://github.com/Nirase/HvZCaseFrontend target=_blank><u>https://github.com/Nirase/HvZCaseFrontend</u></a>" +
       "<br> backend:  <a href=https://github.com/Nirase/HvZCaseBackend target=_blank><u>https://github.com/Nirase/HvZCaseBackend</u></a>",
     githublink: "",
-  },
-  {
-    name: "Dundrian(Ongoing)",
-    img: "https://i.imgur.com/ZHqUl6p.png",
-    description:
-      "This website is an hobby project where the user can play an turn-based online multiplayer game called Dundrian. The game is an party game filled with teamwork and deception where the objective of the majority is to kill the boss while other players want to sabotage the other players and help the boss to win." +
-      "<br><br>This game is based on an novel board game my group created during my studies at Malmö University. More info about the game can be found below" +
-      "<br>Game GDD: <a href=https://drive.google.com/file/d/1FMqZtF7Ha-ClJKQ6NzDmh3VZHDZiztEH/view?usp=drive_link target=_blank>https://drive.google.com/file/d/1FMqZtF7Ha-ClJKQ6NzDmh3VZHDZiztEH/view?usp=drive_link</a>",
-
-    githublink: "https://dundrian.vercel.app/",
-  },
-  {
-    name: "Skurup restaurang & grill(Ongoing)",
-    img: "https://i.imgur.com/ea37hSH.png",
-    description:
-      "This website is made for a restaurant whose sells home cooking and fast food. In the website the user can find all necessary information about the restaurant." +
-      "<br><br>Booking functionality isn't implemented since it isn't possible to book a table in the restaurant." +
-      "<br></a>",
-
-    githublink: "https://skurup-rog.vercel.app/",
   },
 ];
 
