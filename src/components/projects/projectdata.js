@@ -44,7 +44,7 @@ export const ProjectDataFS = [
 
   {
     name: "Humans vs Zombies",
-    img: "https://camo.githubusercontent.com/7614749c52006cedaa4acc8b7d575e9f1de77d185b5bf28824cb1b3ff7161d2a/68747470733a2f2f692e696d6775722e636f6d2f743353706b486f2e706e67",
+    img: "https://drive.google.com/thumbnail?id=1wZeXQUb4UibDgiOXpE35KLxqaKNjHzt5&sz=w1920",
     description:
       "Website where the users can play an advanced game of tag called Humans vs Zombies. The site got both admin and player features where the admins can create, delete and modify games. The players can join and access game information such as amount of players, players alive, game field, map with missions, different chatrooms and their unique bite code. When the player becomes a zombie they unlock a kill functionality where they enter the bite code in order to kill a living player." +
       "<br><br>My role during this project" +
