@@ -1,9 +1,19 @@
 export const ProjectDataFS = [
   {
+    name: "New Gen fashion store",
+    img: "https://drive.google.com/thumbnail?id=1jnYfLvEiTQJT_57VNYK8cdsD-LIPQt9G&sz=w1920",
+    description:
+      "**work in progress** <br>" +
+      "This website is an online clothing store where the user can browse and buy clothings." +
+      "<br><br>" +
+      "<br></a>",
+
+    githublink: "https://newgenfashion.vercel.app/",
+  },
+  {
     name: "Skurup restaurang & grill",
     img: "https://i.imgur.com/ea37hSH.png",
     description:
-      "**work in progress** <br>" +
       "This website is made for a restaurant whose sells home cooking and fast food. In the website the user can find all necessary information about the restaurant." +
       "<br><br>Booking functionality isn't implemented since it isn't possible to book a table in the restaurant." +
       "<br></a>",

@@ -19,7 +19,7 @@
   max-width: 50px;
   min-width: 50px;
   border-radius: 50% !important;
-  opacity: 0.7;
+  opacity: 0.4;
 }
 .image-button-l {
   margin-right: -50vw;
@@ -31,7 +31,7 @@
   max-width: 50px;
   min-width: 50px;
   border-radius: 50% !important;
-  opacity: 0.7;
+  opacity: 0.4;
 }
 .introduction-container {
   display: flex;
