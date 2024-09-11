@@ -1,13 +1,12 @@
 export const ProjectDataFS = [
   {
     name: "New Gen fashion store",
-    img: "https://drive.google.com/thumbnail?id=1jnYfLvEiTQJT_57VNYK8cdsD-LIPQt9G&sz=w1920",
+    img: "https://drive.google.com/thumbnail?id=1dvMgp5rNXSONJpg9WIkjkWlaCK4bQuCw&sz=w1920",
     description:
       "**work in progress** <br>" +
-      "This website is an online clothing store where the user can browse and buy clothings." +
-      "<br><br>" +
-      "<br></a>",
+      "This website is an online clothing store where the user can browse and buy clothings.",
 
+    tech: ["React", "JavaSript", "Node.js", "Firebase", "Stripe"],
     githublink: "https://newgenfashion.vercel.app/",
   },
   {
@@ -17,7 +16,7 @@ export const ProjectDataFS = [
       "This website is made for a restaurant whose sells home cooking and fast food. In the website the user can find all necessary information about the restaurant." +
       "<br><br>Booking functionality isn't implemented since it isn't possible to book a table in the restaurant." +
       "<br></a>",
-
+    tech: ["React", "JavaSript", "Node.js", "Github"],
     githublink: "https://skurup-rog.vercel.app/",
   },
   {
@@ -28,27 +27,26 @@ export const ProjectDataFS = [
       "This website is an hobby project where the user can play an turn-based online multiplayer game called Dundrian. The game is an party game filled with teamwork and deception where the objective of the majority is to kill the boss while other players want to sabotage the other players and help the boss to win." +
       "<br><br>This game is based on an novel board game my group created during my studies at Malmö University. More info about the game can be found below" +
       "<br>Game GDD: <a href=https://drive.google.com/file/d/1FMqZtF7Ha-ClJKQ6NzDmh3VZHDZiztEH/view?usp=drive_link target=_blank>https://drive.google.com/file/d/1FMqZtF7Ha-ClJKQ6NzDmh3VZHDZiztEH/view?usp=drive_link</a>",
-
+    tech: ["JavaSript", "Firebase", "Node.js", "Adobe animate", "Github"],
     githublink: "https://dundrian.vercel.app/",
   },
   {
     name: "Lost in translation",
-    img: "https://camo.githubusercontent.com/075f00d8c97e2f05aba708aa2b73f516bb399414e314a478b8274e6666de2b5d/68747470733a2f2f692e696d6775722e636f6d2f4d424a6a336f662e706e67",
+    img: "https://drive.google.com/thumbnail?id=1iKwb8o0gQEC83LyALcZ_ovm2KWsaoDHo&sz=w1920",
     description:
       "An website created with a small project group where the user can translate words into sign language, the user will have an translation history linked to the username" +
       "<br><br>My role during this project" +
       "<br> ● Translation page functionality and design" +
       "<br> ● Header functionality and design",
-
+    tech: ["React", "Glitch", "Node.js", "Gitkraken"],
     githublink: "https://assignment-2-tau.vercel.app",
   },
   {
     name: "Pokemon trainer app",
     img: "https://i.imgur.com/tvHWjZO.png",
     description:
-      "An website created together with an collegue where the user can log in to browse through the Pokemon catalogue in order to catch and release Pokemon to their personal profile." +
-      "<br><br>",
-
+      "An website created together with an collegue where the user can log in to browse through the Pokemon catalogue in order to catch and release Pokemon to their personal profile.",
+    tech: ["JavaSript", "Firebase", "Node.js", "Gitkraken"],
     githublink: "https://ng-assignment-pokemon-trainer.vercel.app/loginr",
   },
 
@@ -65,6 +63,7 @@ export const ProjectDataFS = [
       "<br><br> github" +
       "<br> frontend:  <a href=https://github.com/Nirase/HvZCaseFrontend target=_blank><u>https://github.com/Nirase/HvZCaseFrontend</u></a>" +
       "<br> backend:  <a href=https://github.com/Nirase/HvZCaseBackend target=_blank><u>https://github.com/Nirase/HvZCaseBackend</u></a>",
+    tech: ["TypeSript", "Azure", "Node.js", "C#", "Docker", "XUnit", "Github"],
     githublink: "",
   },
 ];
@@ -81,6 +80,7 @@ export const ProjectDataGame = [
       "<br> ● Level design" +
       "<br> ● Design documentation" +
       "<br> ● Project planning",
+    tech: ["Unity", "C#", "Adobe Photoshop", "Github", "FL studio"],
     githublink: "https://github.com/Taagan/Just-Jump",
   },
   {
@@ -97,6 +97,7 @@ export const ProjectDataGame = [
       "<br> ● Animator" +
       "<br> ● Design documentation" +
       "<br> ● Project planning",
+    tech: ["Unity", "Navmesh", "C#", "Maya", "Github"],
     githublink: "",
   },
   {
@@ -112,6 +113,7 @@ export const ProjectDataGame = [
       "<br> ● Project planning" +
       "<br> ● Tool programmer" +
       "<br> ● Dialogue author",
+    tech: ["Unity", "C#", "JSON", "Github"],
     githublink: "https://github.com/Celezt/TeaParty",
   },
 ];

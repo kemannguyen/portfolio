@@ -28,7 +28,7 @@ const Contact = () => {
           <br></br>
           <br></br>
           <br></br>
-          Webplats skapad av{" "}
+          Website created by{" "}
           <span className="font-extrabold">Keman Nguyen</span>
         </div>
         <div className="contact-info" style={{ margin: 10 }}>

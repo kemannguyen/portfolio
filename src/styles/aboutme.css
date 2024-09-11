@@ -23,10 +23,12 @@
   padding-left: 50px;
 }
 .aboutme-img {
-  margin-top: 50px;
+  margin-top: 0px;
   margin-left: -20px;
   width: 15vw;
   height: 15vw;
+  max-width: 200px;
+  max-height: 200px;
 }
 @media (max-width: 1070px) {
   .aboutme-info {
@@ -46,11 +48,13 @@
   .aboutme-img {
     display: flex;
     width: 25vw;
-    height: 35vw;
+    height: 25vw;
+    margin-top: 40px;
+    margin-right: 14%;
   }
   .aboutme-img-comp {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: center;
   }
 }

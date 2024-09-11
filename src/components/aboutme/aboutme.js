@@ -1,5 +1,6 @@
 import { useRef, useState, useEffect } from "react";
 import "../../styles/aboutme.css";
+import FadeInSection from "../fadeinsection";
 //import CompetenceList from "./competencelist";
 
 const Aboutme = ({ setAboPosPC }) => {
@@ -10,13 +11,10 @@ const Aboutme = ({ setAboPosPC }) => {
 
   // This function calculate X and Y
   const getPosition = () => {
-    try{
-    const y = boxRef3.current.offsetTop;
-    setY(y);
-    }
-    catch(e){
-      ;
-    }
+    try {
+      const y = boxRef3.current.offsetTop;
+      setY(y);
+    } catch (e) {}
   };
 
   // Get the position of the red box in the beginning
@@ -39,43 +37,42 @@ const Aboutme = ({ setAboPosPC }) => {
       <div className="title" ref={boxRef3} onResize={UpdateY(y)}>
         About Me
       </div>
-      <div className="body-container">
-        <div className="aboutme-info">
-          <span className="body-text aboutme-subhead">
-            Hello, my name is Keman Nguyen
-          </span>
-          <br></br>
-          <span className="body-text " style={{ paddingRight: 40 }}>
-            I studied Game development at Malmö University. During my time there
-            I have finished multiple group projects, everything from making
-            boardgames to creating digital games. The roles I have taken during
-            the projects are gameplay and AI programmer as well as 3D Character
-            animator.
+      <FadeInSection>
+        <div className="body-container">
+          <div className="aboutme-info">
+            <span className="body-text aboutme-subhead">
+              Hello, my name is Keman Nguyen
+            </span>
             <br></br>
-            After that I was a participant in a fullstack developer program at
-            Experis Academy where I deepened my knowledge in front and backend
-            development.
-          </span>
-          <br></br>
-          <span className="body-text " style={{ paddingRight: 40 }}>
-            One of my passions aside from coding is to illustrate and animate.
-            The thing that I love with art is the attention to details, progression and self improvement,
-            which is why I am always looking for opportunities to challange
-            myself in order to grow.
-          </span>
-          <br></br>
-          <span className="body-text " style={{ paddingRight: 40 }}>
-            When I am not studying, I am probably working on a personal project,
-            drawing or learning new random things.
-          </span>
-        </div>
-        <div className="aboutme-img-comp">
-          <img className="aboutme-img" src="https://i.imgur.com/NNi1gvj.png" alt="" />
-          <div className="aboutme-competence">
-            {/*<CompetenceList />*/}
+            <span className="body-text " style={{ paddingRight: 40 }}>
+              I'm a versatile developer with a background in Game Development
+              from Malmö University, where I contributed to various group
+              projects ranging from board games to digital games. In these
+              projects, I took on roles such as gameplay and AI programmer, as
+              well as a 3D character animator.
+              <br></br>
+              Additionally, I have .NET Fullstack Development experience through
+              Experis Academy, where I gained proficiency in technologies like
+              Node.js, React, Angular, JavaScript, TypeScript, Java, C#,
+              Express.js, MySQL, and Azure. This blend of technical skills and
+              creative project work makes me well-equipped for a variety of
+              development challenges.
+            </span>
+            <br></br>
+            <span className="body-text " style={{ paddingRight: 40 }}></span>
+            <br></br>
+            <span className="body-text " style={{ paddingRight: 40 }}></span>
+          </div>
+          <div className="aboutme-img-comp">
+            <img
+              className="aboutme-img"
+              src="https://i.imgur.com/NNi1gvj.png"
+              alt=""
+            />
+            {/*<div className="aboutme-competence">{<CompetenceList />}</div>*/}
           </div>
         </div>
-      </div>
+      </FadeInSection>
     </div>
   );
 };

@@ -9,6 +9,7 @@ import Tabs from "@mui/material/Tabs";
 import Tab from "@mui/material/Tab";
 //import Typography from '@mui/material/Typography';
 import Box from "@mui/material/Box";
+import FadeInSection from "../fadeinsection";
 
 const Projects = ({ setProjPosPC }) => {
   const [index, setIndex] = useState(0);
@@ -204,15 +205,24 @@ const Projects = ({ setProjPosPC }) => {
           >
             <b id="proj-desc" className="project-desc" style={{ flex: 1 }}></b>
           </div>
-          <div
-            style={{
-              maxWidth: "40.5vw",
-              marginLeft: "12vw",
-              display: "flex",
-              justifyContent: "flex-end",
-            }}
-          >
-            {liveBtn}
+          <div>
+            <div className="project-tags">
+              {ProjectDataFS[index].tech.map((item, index) => (
+                <div className="project-tag" key={index}>
+                  #{item}
+                </div>
+              ))}
+            </div>
+            <div
+              style={{
+                maxWidth: "40.5vw",
+                marginLeft: "12vw",
+                display: "flex",
+                justifyContent: "flex-end",
+              }}
+            >
+              {liveBtn}
+            </div>
           </div>
         </div>
       </div>
@@ -277,6 +287,7 @@ const Projects = ({ setProjPosPC }) => {
             </svg>
           </button>
         </div>
+
         <div className="project-container">
           <h1 className="project-title">{ProjectDataGame[index].name}</h1>
           <div
@@ -286,6 +297,15 @@ const Projects = ({ setProjPosPC }) => {
             }}
           >
             <b id="proj-desc" className="project-desc" style={{ flex: 1 }}></b>
+          </div>
+          <div>
+            <div className="project-tags">
+              {ProjectDataGame[index].tech.map((item, index) => (
+                <div className="project-tag" key={index}>
+                  #{item}
+                </div>
+              ))}
+            </div>
           </div>
           <div
             style={{
@@ -417,31 +437,33 @@ const Projects = ({ setProjPosPC }) => {
       <div className="title" ref={boxRef2} onResize={UpdateY(y)}>
         Projects
       </div>
-      <div className="introduction-container">
-        <span className="body-text ">
-          {/*I am a passionate fullstack developer, game developer and illustrator.*/}
-          I am thrilled you’ve come to visit my showcase of work that I’ve
-          compiled over the years, which includes a combination of
-          collaborations, commissioned work and personal projects. Take a look
-          and feel free to get in touch if you’d like to discuss potential
-          opportunities to work together.
-        </span>
-      </div>
-      <Box sx={{ width: "100%" }}>
-        <Box sx={{ borderBottom: 1, borderColor: "divider" }}>
-          <Tabs
-            sx={{ mt: "60px" }}
-            value={value}
-            onChange={handleChange}
-            aria-label="basic tabs example"
-          >
-            <Tab label="Fullstack" sx={{ color: "white", ml: "auto" }} />
-            <Tab label="Game" sx={{ color: "white", mr: "auto" }} />
-            {/*<Tab label="Illustrator" sx={{ color: "white", mr: "auto" }} />*/}
-          </Tabs>
+      <FadeInSection>
+        <div className="introduction-container">
+          <span className="body-text ">
+            {/*I am a passionate fullstack developer, game developer and illustrator.*/}
+            I am thrilled you’ve come to visit my showcase of work that I’ve
+            compiled over the years, which includes a combination of
+            collaborations, commissioned work and personal projects. Take a look
+            and feel free to get in touch if you’d like to discuss potential
+            opportunities to work together.
+          </span>
+        </div>
+        <Box sx={{ width: "100%" }}>
+          <Box sx={{ borderBottom: 1, borderColor: "divider" }}>
+            <Tabs
+              sx={{ mt: "60px" }}
+              value={value}
+              onChange={handleChange}
+              aria-label="basic tabs example"
+            >
+              <Tab label="Fullstack" sx={{ color: "white", ml: "auto" }} />
+              <Tab label="Game" sx={{ color: "white", mr: "auto" }} />
+              {/*<Tab label="Illustrator" sx={{ color: "white", mr: "auto" }} />*/}
+            </Tabs>
+          </Box>
         </Box>
-      </Box>
-      {projectComp}
+        {projectComp}
+      </FadeInSection>
     </div>
   );
 };
