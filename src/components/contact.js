@@ -25,11 +25,6 @@ const Contact = () => {
           <b>Email: </b>
           <br></br>
           keman.nguyen@outlook.com
-          <br></br>
-          <br></br>
-          <br></br>
-          Website created by{" "}
-          <span className="font-extrabold">Keman Nguyen</span>
         </div>
         <div className="contact-info" style={{ margin: 10 }}>
           <b>Located at: </b>
@@ -37,7 +32,7 @@ const Contact = () => {
           Malmö, Sweden
         </div>
       </div>
-      <div style={{ display: "flex", justifyContent: "flex-end" }}>
+      <div style={{ display: "flex", justifyContent: "center" }}>
         <button
           className="contact-btn relative inline-flex items-center justify-center p-0.5 mb-2 mr-2 overflow-hidden text-sm font-medium text-gray-900 rounded-lg group bg-gradient-to-br from-gray-500 to-gray-300 hover:text-white dark:text-white focus:ring-0 focus:outline-none"
           onClick={() => openLinkInNewTab("https://github.com/kemannguyen")}
@@ -141,6 +136,13 @@ const Contact = () => {
             </svg>
           </div>
         </button>
+      </div>
+      <div
+        className="watermark watermark-container "
+        style={{ display: "flex", justifyContent: "center" }}
+      >
+        Website created by <span> </span>
+        <span className="font-extrabold watermark">Keman Nguyen</span>
       </div>
     </div>
   );

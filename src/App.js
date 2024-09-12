@@ -23,7 +23,6 @@ const App = () => {
         // expPos={expPos}
       />
       <Aboutme setAboPosPC={setAboPos} />
-
       <Projects setProjPosPC={setProjPos} />
 
       {/* <Eductation setEduPosPC={setEduPos} />

@@ -2,7 +2,7 @@
   background-color: rgb(22, 22, 22);
 }
 .contact-btn {
-  transform: scale(0.7);
+  transform: scale(0.8);
   max-height: 45px;
   min-height: 45px;
   max-width: 45px;
@@ -43,4 +43,13 @@
     max-width: 100vw;
     color: rgb(133, 139, 143);
   }
+}
+
+.watermark-container {
+  margin-top: 10px;
+}
+.watermark {
+  font-size: small;
+  color: rgb(133, 139, 143);
+  margin-left: 5px;
 }
