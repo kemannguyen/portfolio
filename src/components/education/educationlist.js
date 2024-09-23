@@ -23,5 +23,4 @@ const Educationlist = () => {
     </div>
   );
 };
-
 export default Educationlist;

@@ -263,8 +263,19 @@ const Projects = ({ setProjPosPC }) => {
               />
             </svg>
           </button>
-
-          <img className="image-view" src={ProjectDataGame[index].img} alt="" />
+          {ProjectDataGame[index].video === "" ? (
+            <img
+              className="image-view"
+              src={ProjectDataGame[index].img}
+              alt=""
+            />
+          ) : (
+            <iframe
+              src="https://drive.google.com/file/d/1riHs4DHotg62TF-R3zI-w-_g0WSsaNt0/preview"
+              className="image-view"
+              allow="autoplay"
+            />
+          )}
           <button
             type="button"
             className="image-button-r text-white bg-[#24292F] hover:bg-[#d1d1d1] focus:outline-none font-medium rounded-lg px-5 py-2.5 text-center inline-flex items-center dark:focus:ring-gray-500 dark:hover:bg-[#d1d1d1]/30 mr-2 mb-2"

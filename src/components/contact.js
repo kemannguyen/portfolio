@@ -138,7 +138,7 @@ const Contact = () => {
         </button>
       </div>
       <div
-        className="watermark watermark-container "
+        className="watermark watermark-container"
         style={{ display: "flex", justifyContent: "center" }}
       >
         Website created by <span> </span>

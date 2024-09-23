@@ -82,6 +82,8 @@ export const ProjectDataGame = [
       "<br> ● Project planning",
     tech: ["Unity", "C#", "Adobe Photoshop", "Github", "FL studio"],
     githublink: "https://github.com/Taagan/Just-Jump",
+    video:
+      "https://drive.google.com/file/d/1DxpyGZGq2bZvXtR_oFG-BToQm9O-h1Ma/preview",
   },
   {
     name: "The last ztand",
@@ -99,6 +101,8 @@ export const ProjectDataGame = [
       "<br> ● Project planning",
     tech: ["Unity", "Navmesh", "C#", "Maya", "Github"],
     githublink: "",
+    video:
+      "https://drive.google.com/file/d/1riHs4DHotg62TF-R3zI-w-_g0WSsaNt0/preview",
   },
   {
     name: "Tea party",
@@ -115,6 +119,7 @@ export const ProjectDataGame = [
       "<br> ● Dialogue author",
     tech: ["Unity", "C#", "JSON", "Github"],
     githublink: "https://github.com/Celezt/TeaParty",
+    video: "yes",
   },
 ];
 export const ProjectDataIllustration = [
