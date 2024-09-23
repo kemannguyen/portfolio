@@ -271,7 +271,7 @@ const Projects = ({ setProjPosPC }) => {
             />
           ) : (
             <iframe
-              src="https://drive.google.com/file/d/1riHs4DHotg62TF-R3zI-w-_g0WSsaNt0/preview"
+              src={ProjectDataGame[index].video}
               className="image-view"
               allow="autoplay"
             />

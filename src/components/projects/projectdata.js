@@ -83,7 +83,7 @@ export const ProjectDataGame = [
     tech: ["Unity", "C#", "Adobe Photoshop", "Github", "FL studio"],
     githublink: "https://github.com/Taagan/Just-Jump",
     video:
-      "https://drive.google.com/file/d/1DxpyGZGq2bZvXtR_oFG-BToQm9O-h1Ma/preview",
+      "https://drive.google.com/file/d/1Kr5WXbrLCwvDCr0lKbR-F5uoaurzwimD/preview",
   },
   {
     name: "The last ztand",
@@ -119,7 +119,8 @@ export const ProjectDataGame = [
       "<br> ● Dialogue author",
     tech: ["Unity", "C#", "JSON", "Github"],
     githublink: "https://github.com/Celezt/TeaParty",
-    video: "yes",
+    video:
+      "https://drive.google.com/file/d/1DxpyGZGq2bZvXtR_oFG-BToQm9O-h1Ma/preview",
   },
 ];
 export const ProjectDataIllustration = [
