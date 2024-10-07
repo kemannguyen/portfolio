@@ -22,9 +22,9 @@ const App = () => {
         aboPos={aboPos}
         // expPos={expPos}
       />
-      <Aboutme setAboPosPC={setAboPos} />
       <Projects setProjPosPC={setProjPos} />
-
+      <Aboutme setAboPosPC={setAboPos} />
+      <div className="marginbotpage"></div>
       {/* <Eductation setEduPosPC={setEduPos} />
       <Experiences setExpPosPC={setExpPos} /> */}
       <Contact />
