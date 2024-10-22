@@ -1,4 +1,5 @@
 import React, { useEffect, useState, useRef } from "react";
+import ReactPlayer from "react-player";
 import "../../styles/projects.css";
 import {
   ProjectDataFS,
@@ -166,7 +167,8 @@ const Projects = ({ setProjPosPC }) => {
           <iframe
             src={ProjectDataGame[index].video}
             className="image-view"
-            allow="autoplay"
+            allow="autoplay; encrypted-media"
+            title="video"
           />
         )}
       </div>

@@ -39,17 +39,18 @@ const Aboutme = ({ setAboPosPC }) => {
       </div>
       <FadeInSection>
         <div className="body-container">
-          <div className="aboutme-info">
+          <div className="aboutme-info ">
             <span className="body-text aboutme-subhead">
               Hello, my name is Keman Nguyen
             </span>
             <br></br>
-            <span className="body-text " style={{ paddingRight: 40 }}>
+            <span className="body-text">
               I'm a versatile developer with a background in Game Development
               from Malmö University, where I contributed to various group
               projects ranging from board games to digital games. In these
               projects, I took on roles such as gameplay and AI programmer, as
               well as a 3D character animator.
+              <br></br>
               <br></br>
               Additionally, I have .NET Fullstack Development experience through
               Experis Academy, where I gained proficiency in technologies like
@@ -58,12 +59,8 @@ const Aboutme = ({ setAboPosPC }) => {
               creative project work makes me well-equipped for a variety of
               development challenges.
             </span>
-            <br></br>
-            <span className="body-text " style={{ paddingRight: 40 }}></span>
-            <br></br>
-            <span className="body-text " style={{ paddingRight: 40 }}></span>
           </div>
-          <div className="aboutme-img-comp">
+          <div className="aboutme-img-comp" style={{ marginBottom: "100px" }}>
             <img
               className="aboutme-img"
               src="https://i.imgur.com/NNi1gvj.png"
@@ -71,6 +68,50 @@ const Aboutme = ({ setAboPosPC }) => {
             />
             {/*<div className="aboutme-competence">{<CompetenceList />}</div>*/}
           </div>
+        </div>
+      </FadeInSection>
+      <FadeInSection>
+        <div>
+          <span className="title">Hobbies</span>
+          <br></br>
+          <div className="introduction-container">
+            <span className="body-text">
+              <br></br>
+              During my spare time I love experimenting and learning new things.
+              I usually tackle challanges where my creative side of the brain
+              gets stimmulated. I've tried everything from Music
+              production/design and instruments to some DIY projects. Here are
+              some fun examples!
+            </span>
+          </div>
+        </div>
+      </FadeInSection>
+
+      <FadeInSection>
+        <div style={{ marginTop: 50 }}>
+          <div className="test"> Bear backpack</div>
+          <iframe
+            src={
+              "https://drive.google.com/file/d/1JurgAe0elHH4DTYdz7TTpmYfnmp_Dfbj/preview"
+            }
+            className="image-view centered"
+            allow="autoplay; encrypted-media"
+            title="video"
+            style={{ width: "10px" }}
+          />
+        </div>
+      </FadeInSection>
+      <FadeInSection>
+        <div style={{ marginTop: 50 }}>
+          <div className="test"> Paper bouquet</div>
+          <iframe
+            src={
+              "https://drive.google.com/file/d/119m8Iqbp6A2n5qLhMabiD8-kRojRCVCK/preview"
+            }
+            className="image-view centered"
+            allow="autoplay; encrypted-media"
+            title="video"
+          />
         </div>
       </FadeInSection>
     </div>

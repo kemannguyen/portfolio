@@ -35,10 +35,19 @@ body {
 }
 .body-container {
   display: flex;
+  flex-direction: row;
   margin-left: 17vw;
   margin-right: 50vw;
   width: 80vw;
 }
+
+.body-container-p2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 80vw;
+}
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
@@ -47,8 +56,8 @@ code {
   .body-container {
     display: flex;
     flex-direction: column;
-    margin-left: 17vw;
-    margin-right: 50vw;
+    margin-left: auto;
+    margin-right: auto;
     width: 80vw;
   }
   .body-text {
@@ -69,4 +78,18 @@ code {
 
 .marginbotpage {
   height: 300px;
+}
+
+.centered {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.test {
+  font-size: x-large;
+  font-weight: bold;
+  margin-top: 80px;
+  display: flex;
+  justify-content: center;
+  color: rgb(133, 139, 143);
 }
