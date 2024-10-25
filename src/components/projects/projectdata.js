@@ -25,7 +25,7 @@ export const ProjectDataFS = [
     description:
       "**work in progress** <br>" +
       "This website is an hobby project where the user can play an turn-based online multiplayer game called Dundrian. The game is an party game filled with teamwork and deception where the objective of the majority is to kill the boss while other players want to sabotage the other players and help the boss to win." +
-      "<br><br>This game is based on an novel board game my group created during my studies at Malmö University. More info about the game can be found below" +
+      "<br><br>This game is based on an novel board game my group created during my studies at Malmö University. All assets and music has been created by me. More info about the game can be found below" +
       "<br>Game GDD: <a href=https://drive.google.com/file/d/1FMqZtF7Ha-ClJKQ6NzDmh3VZHDZiztEH/view?usp=drive_link target=_blank>https://drive.google.com/file/d/1FMqZtF7Ha-ClJKQ6NzDmh3VZHDZiztEH/view?usp=drive_link</a>",
     tech: ["JavaSript", "Firebase", "Node.js", "Adobe animate", "Github"],
     githublink: "https://dundrian.vercel.app/",
@@ -118,6 +118,18 @@ export const ProjectDataGame = [
     tech: ["Unity", "C#", "JSON", "Github"],
     githublink: "https://github.com/Celezt/TeaParty",
     video: "https://www.youtube.com/embed/LIvcDtlmecw?autoplay=1",
+  },
+  {
+    name: "Dundrian",
+    img: "https://i.imgur.com/ZHqUl6p.png",
+    description:
+      "**work in progress** <br>" +
+      "This website is an hobby project where the user can play an turn-based online multiplayer game called Dundrian. The game is an party game filled with teamwork and deception where the objective of the majority is to kill the boss while other players want to sabotage the other players and help the boss to win." +
+      "<br><br>This game is based on an novel board game my group created during my studies at Malmö University. All assets and music has been created by me. More info about the game can be found below" +
+      "<br>Game GDD: <a href=https://drive.google.com/file/d/1FMqZtF7Ha-ClJKQ6NzDmh3VZHDZiztEH/view?usp=drive_link target=_blank>https://drive.google.com/file/d/1FMqZtF7Ha-ClJKQ6NzDmh3VZHDZiztEH/view?usp=drive_link</a>",
+    tech: ["JavaSript", "Firebase", "Node.js", "Adobe animate", "Github"],
+    githublink: "https://dundrian.vercel.app/",
+    video: "",
   },
 ];
 export const ProjectDataIllustration = [
