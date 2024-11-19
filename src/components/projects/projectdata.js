@@ -1,9 +1,18 @@
 export const ProjectDataFS = [
   {
+    name: "Websolutions",
+    img: "https://drive.google.com/thumbnail?id=1mziSGmS6NvcvECYjPmO2t28rfe4hlf7t&sz=w1920",
+    description:
+      "**Ongoing project** <br>" +
+      "This website is an platform where the user can book meetings in order to create thair ideal website.",
+
+    tech: ["React", "JavaSript", "Node.js", "AWS"],
+    githublink: "https://websolutions-kn.vercel.app/",
+  },
+  {
     name: "New Gen fashion store",
     img: "https://drive.google.com/thumbnail?id=1dvMgp5rNXSONJpg9WIkjkWlaCK4bQuCw&sz=w1920",
     description:
-      "**work in progress** <br>" +
       "This website is an online clothing store where the user can browse and buy clothings.",
 
     tech: ["React", "JavaSript", "Node.js", "Firebase", "Stripe"],
