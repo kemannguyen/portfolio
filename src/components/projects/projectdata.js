@@ -72,7 +72,16 @@ export const ProjectDataFS = [
       "<br><br> github" +
       "<br> frontend:  <a href=https://github.com/Nirase/HvZCaseFrontend target=_blank><u>https://github.com/Nirase/HvZCaseFrontend</u></a>" +
       "<br> backend:  <a href=https://github.com/Nirase/HvZCaseBackend target=_blank><u>https://github.com/Nirase/HvZCaseBackend</u></a>",
-    tech: ["TypeSript", "Azure", "Node.js", "C#", "Docker", "XUnit", "Github"],
+    tech: [
+      "TypeSript",
+      "Azure",
+      "Node.js",
+      "C#",
+      "Docker",
+      "XUnit",
+      "Github",
+      "MUI",
+    ],
     githublink: "",
   },
 ];
