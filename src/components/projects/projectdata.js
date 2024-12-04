@@ -4,9 +4,9 @@ export const ProjectDataFS = [
     img: "https://drive.google.com/thumbnail?id=1mziSGmS6NvcvECYjPmO2t28rfe4hlf7t&sz=w1920",
     description:
       "**Ongoing project** <br>" +
-      "This website is an platform where the user can book meetings in order to create thair ideal website.",
+      "This website is an platform where the user can book meetings in order to create their ideal website.",
 
-    tech: ["React", "JavaSript", "Node.js", "AWS"],
+    tech: ["React", "JavaSript", "Node.js", "AWS", "emailJS"],
     githublink: "https://websolutions-kn.vercel.app/",
   },
   {
