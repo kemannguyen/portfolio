@@ -6,7 +6,7 @@ export const ProjectDataFS = [
       "**Ongoing project** <br>" +
       "This website is an platform where the user can book meetings in order to create their ideal website.",
 
-    tech: ["React", "JavaSript", "Node.js", "AWS", "emailJS"],
+    tech: ["React", "JavaSript", "Node.js", "AWS", "EmailJS"],
     githublink: "https://websolutions-kn.vercel.app/",
   },
   {
