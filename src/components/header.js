@@ -9,7 +9,7 @@ const Header = () => {
   const openMenu = () => setMenu(!menu);
 
   return (
-    <div>
+    <div className="container">
       <img
         className={menu ? "button-hover2" : "button-hover"}
         src={
