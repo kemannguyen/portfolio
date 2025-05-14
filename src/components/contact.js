@@ -16,20 +16,21 @@ const Contact = () => {
       </div>
       <div className="subhead-text">Keman Nguyen</div>
       <div className="contact-container">
-        <div className="contact-info" style={{ margin: 10 }}>
-          <b>Phone: </b>
-          <br></br>
-          +46 70 068 42 39
+        <div className="contact-info">
+          <div> <b>Phone: </b></div>
+         
+          <div>+46 70 068 42 39</div>
+          
         </div>
-        <div className="contact-info" style={{ margin: 10 }}>
-          <b>Email: </b>
-          <br></br>
-          keman.nguyen@outlook.com
+        <div className="contact-info" >
+          <div> <b>Email: </b></div>
+         
+           <div> keman.nguyen@outlook.com</div>
+         
         </div>
-        <div className="contact-info" style={{ margin: 10 }}>
-          <b>Located at: </b>
-          <br></br>
-          Malmö, Sweden
+        <div className="contact-info">
+          <div> <b>Located at: </b></div>
+          <div> Malmö, Sweden</div>
         </div>
       </div>
       <div style={{ display: "flex", justifyContent: "center" }}>
