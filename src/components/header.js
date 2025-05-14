@@ -21,9 +21,9 @@ const Header = () => {
         alt=""
       />
       <div className="header h-20 p-3 bg-gradient-to-r sticky top-0 w-full">
-        <span className="inline-block font-bold text-5xl px-10 custom-text">
+        <div className="inline-block font-bold px-10 custom-text">
           Keman Nguyen
-        </span>
+        </div>
       </div>
       <div className={menu ? "menu-box-active" : "menu-box"}>
         <Menu />

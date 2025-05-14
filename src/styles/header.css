@@ -3,7 +3,7 @@
   cursor: default;
   position: fixed;
   white-space: nowrap;
-  font-size: 40px !important;
+  font-size: 40px;
 }
 
 .header {
@@ -96,7 +96,8 @@
     color: rgb(255, 255, 255);
     cursor: default;
     white-space: nowrap;
-    font-size: 9vw !important;
+    font-size: 2rem;
+    margin-top: -1px;
   }
   .header {
     background-color: rgb(22, 22, 22);
@@ -105,15 +106,16 @@
     justify-content: center;
     position: fixed !important;
     top: 0;
-    max-height: 18vw !important;
-    min-height: 18vw;
+    max-height: 5rem !important;
+    min-height: 5rem;
+    height: 18rem;
   }
   .button-hover {
     position: fixed !important;
-    max-width: 10vw;
-    max-height: 10vw;
-    min-width: 10vw;
-    min-height: 10vw;
+    max-height: 3rem !important;
+    min-height: 3rem;
+    max-width: 3rem !important;
+    min-width: 3rem;
     margin-top: 10px;
     margin-left: 10px;
     cursor: pointer;
@@ -126,10 +128,10 @@
     position: fixed !important;
     cursor: pointer !important;
     z-index: 50;
-    max-width: 8vw;
-    max-height: 8vw;
-    min-width: 8vw;
-    min-height: 8vw;
+    max-height: 2rem !important;
+    min-height: 2rem;
+    max-width: 2rem !important;
+    min-width: 2rem;
     margin-top: 15px;
     margin-left: 15px;
     transition: 200ms;
@@ -139,7 +141,6 @@
   .menu-box-active {
     z-index: 40 !important;
     margin-left: -80px;
-    margin-top: 10vw;
     width: 250px;
     display: flex;
     justify-content: center;

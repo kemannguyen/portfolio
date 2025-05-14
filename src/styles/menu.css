@@ -1,10 +1,13 @@
 .sidebar {
-  margin-top: 40px;
-  height: 60px; 
+  margin-top: 3rem;
+  padding: 1rem;
+  height: 10rem; 
+  min-width: 1rem;
   background-color: rgb(22, 22, 22);
 }
 
 .menu-options {
+  position: absolute;
   padding-top: 40px;
   max-height: 265px; /*5 options 335px */
   min-height: 265px; /*5 options 335px */
@@ -13,15 +16,16 @@
   background-color: rgb(22, 22, 22);
 }
 .menu-offset {
-  margin-top: 95px;
+  margin-top: 2rem;
   display: flex;
   flex-direction: column;
 }
 .menu-option {
   position: relative;
   font-size: small;
-  margin-top: 10px;
-  margin-left: 60px;
+  margin-top: 2rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
   align-self: flex-start;
   padding-bottom: 10px;
   color: white;

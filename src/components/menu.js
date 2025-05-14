@@ -25,8 +25,8 @@ const Menu = () => {
 
   return (
     <div>
-      <div className="sidebar relative flex flex-col rounded-[10px] ml-5 min-w-[150px] max-w-[150px] bg-clip-border shadow-3xl shadow-shadow-500 flex flex-col w-full !p-6 3xl:p-![18px] "></div>
-      <div className="menu-options h-full w-full mt-10 flex flex-col">
+      <div className="sidebar flex flex-col rounded-[10px] ml-5 min-w-[150px] max-w-[150px] bg-clip-border shadow-3xl shadow-shadow-500 flex flex-col w-full !p-6 3xl:p-![18px] "></div>
+      <div className="menu-options t-10 flex flex-col">
         <div className="menu-offset">
           <button className="menu-option" onClick={scrollToAboutMe}>
             <b>About me</b>
@@ -34,7 +34,6 @@ const Menu = () => {
           <button className="menu-option" onClick={scrollToProjects}>
             <b>Projects</b>
           </button>
-
           <button className="menu-option" onClick={scrollToContact}>
             <b>Contact info</b>
           </button>
